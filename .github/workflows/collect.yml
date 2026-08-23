@@ -1,0 +1,98 @@
+name: Collect
+
+on:
+  schedule:
+    # Three times a day. Odd minutes so runs are not queued behind the
+    # top-of-hour stampede on GitHub's scheduler.
+    - cron: "17 1 * * *"
+    - cron: "43 9 * * *"
+    - cron: "29 17 * * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Fetch but write nothing"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: collect
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Skip Fridays
+        id: gate
+        run: |
+          # Friday in Asia/Tehran, not UTC — the two do not line up.
+          if [ "$(TZ=Asia/Tehran date +%u)" = "5" ]; then
+            echo "Friday in Tehran; skipping."
+            echo "run=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "run=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - uses: actions/setup-python@v5
+        if: steps.gate.outputs.run == 'true'
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        if: steps.gate.outputs.run == 'true'
+        run: pip install -r requirements.txt
+
+      - name: Collect
+        id: collect
+        if: steps.gate.outputs.run == 'true'
+        env:
+          # The default token gives 5,000 API requests/hour, which is
+          # plenty for ~42 projects three times a day.
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          if [ "${{ inputs.dry_run }}" = "true" ]; then
+            python scripts/collect.py --dry-run
+            exit 0
+          fi
+
+          MESSAGE=$(python scripts/collect.py | tail -n 1)
+          echo "message=$MESSAGE" >> "$GITHUB_OUTPUT"
+
+      - name: Commit
+        if: steps.gate.outputs.run == 'true' && inputs.dry_run != true
+        run: |
+          # Author the commit as the repository owner so it counts as a
+          # contribution; the bot identity would not.
+          git config user.name  "${{ github.repository_owner }}"
+          git config user.email "${{ vars.GIT_EMAIL }}"
+
+          git add data charts README.md
+
+          if git diff --cached --quiet; then
+            echo "Nothing changed."
+            exit 0
+          fi
+
+          git commit -m "${{ steps.collect.outputs.message }}"
+          git pull --rebase --autostash
+          git push
+
+      - name: Upload artifacts on failure
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: debug-output
+          path: |
+            data/
+            charts/
+          retention-days: 7
