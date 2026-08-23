@@ -94,7 +94,62 @@ history unreviewable.
 
 ## Ecosystem Radar
 
-_No data collected yet. The first scheduled run will populate this section._
+_Last run: **2026-08-23 15:27 UTC** · 42 projects · 42 observations · 1 days of history (2026-08-23 → 2026-08-23)_
+
+![Category momentum](charts/categories.svg)
+
+### Fastest growing (30d, star growth as % of base)
+
+| Project | Category | Stars | 30d | Growth | Momentum |
+| --- | --- | ---: | ---: | ---: | ---: |
+| [ClickHouse/ClickHouse](https://github.com/ClickHouse/ClickHouse) | Databases | 49,402 | +0 | 0.00% | 0.00 |
+| [mlflow/mlflow](https://github.com/mlflow/mlflow) | Machine learning | 27,630 | +0 | 0.00% | 0.00 |
+| [open-telemetry/opentelemetry-collector](https://github.com/open-telemetry/opentelemetry-collector) | Platform & DevOps | 7,443 | +0 | 0.00% | 0.00 |
+| [optuna/optuna](https://github.com/optuna/optuna) | Machine learning | 14,688 | +0 | 0.00% | 0.00 |
+| [pallets/flask](https://github.com/pallets/flask) | Web & backend | 72,144 | +0 | 0.00% | 0.00 |
+| [pandas-dev/pandas](https://github.com/pandas-dev/pandas) | Data engineering | 49,551 | +0 | 0.00% | 0.00 |
+| [plotly/plotly.py](https://github.com/plotly/plotly.py) | Visualisation & apps | 18,751 | +0 | 0.00% | 0.00 |
+| [pola-rs/polars](https://github.com/pola-rs/polars) | Data engineering | 39,456 | +0 | 0.00% | 0.00 |
+
+
+### Losing momentum (30d)
+
+| Project | Category | Stars | 30d | Growth | Momentum |
+| --- | --- | ---: | ---: | ---: | ---: |
+| [ClickHouse/ClickHouse](https://github.com/ClickHouse/ClickHouse) | Databases | 49,402 | +0 | 0.00% | 0.00 |
+| [mlflow/mlflow](https://github.com/mlflow/mlflow) | Machine learning | 27,630 | +0 | 0.00% | 0.00 |
+| [open-telemetry/opentelemetry-collector](https://github.com/open-telemetry/opentelemetry-collector) | Platform & DevOps | 7,443 | +0 | 0.00% | 0.00 |
+| [optuna/optuna](https://github.com/optuna/optuna) | Machine learning | 14,688 | +0 | 0.00% | 0.00 |
+| [pallets/flask](https://github.com/pallets/flask) | Web & backend | 72,144 | +0 | 0.00% | 0.00 |
+
+
+### Categories
+
+| Category | Projects | Stars | 30d | Median growth | Stale |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| Data engineering | 12 | 275,765 | +0 | 0.00% | 0 |
+| Databases | 6 | 214,989 | +0 | 0.00% | 0 |
+| Machine learning | 8 | 467,241 | +0 | 0.00% | 0 |
+| Platform & DevOps | 5 | 324,022 | +0 | 0.00% | 0 |
+| Visualisation & apps | 6 | 215,740 | +0 | 0.00% | 0 |
+| Web & backend | 5 | 306,704 | +0 | 0.00% | 1 |
+
+
+### Watchlist
+
+| Project | Days since push | Open issues / 1k stars | Flag |
+| --- | ---: | ---: | --- |
+| [encode/httpx](https://github.com/encode/httpx) | 147 | 9.27 | stalled |
+| [hashicorp/terraform](https://github.com/hashicorp/terraform) | 2 | 38.68 | issue load |
+| [scikit-learn/scikit-learn](https://github.com/scikit-learn/scikit-learn) | 2 | 31.70 | issue load |
+| [apache/arrow](https://github.com/apache/arrow) | 1 | 151.68 | issue load |
+| [ibis-project/ibis](https://github.com/ibis-project/ibis) | 1 | 78.93 | issue load |
+| [plotly/plotly.py](https://github.com/plotly/plotly.py) | 1 | 41.60 | issue load |
+| [open-telemetry/opentelemetry-collector](https://github.com/open-telemetry/opentelemetry-collector) | 1 | 94.85 | issue load |
+| [mlflow/mlflow](https://github.com/mlflow/mlflow) | 0 | 74.81 | issue load |
+
+
+_Generated automatically. Methodology in [`docs/METHODOLOGY.md`](docs/METHODOLOGY.md)._
 
 <!-- RADAR:END -->
 
