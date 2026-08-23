@@ -1,7 +1,7 @@
 # Ecosystem Radar
 
-[![CI](https://github.com/OWNER/REPO/actions/workflows/ci.yml/badge.svg)](https://github.com/OWNER/REPO/actions/workflows/ci.yml)
-[![Collect](https://github.com/OWNER/REPO/actions/workflows/collect.yml/badge.svg)](https://github.com/OWNER/REPO/actions/workflows/collect.yml)
+[![CI](https://github.com/Amirzamani1l/oss-momentum/actions/workflows/ci.yml/badge.svg)](https://github.com/Amirzamani1l/oss-momentum/actions/workflows/ci.yml)
+[![Collect](https://github.com/Amirzamani1l/oss-momentum/actions/workflows/collect.yml/badge.svg)](https://github.com/Amirzamani1l/oss-momentum/actions/workflows/collect.yml)
 
 A self-updating dataset tracking momentum across 42 major open-source
 projects. Three times a day it pulls fresh metrics from the GitHub and
