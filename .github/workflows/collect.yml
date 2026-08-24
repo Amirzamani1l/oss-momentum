@@ -16,6 +16,8 @@ on:
 
 permissions:
   contents: write
+  pull-requests: write
+  issues: write
 
 concurrency:
   group: collect
@@ -26,10 +28,18 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 20
 
+    env:
+      # A personal access token, when present, attributes the pull request
+      # and issues to the repository owner and lets CI run on the PR.
+      # Falls back to the built-in token, which still works but shows up
+      # as github-actions[bot].
+      GH_TOKEN: ${{ secrets.RADAR_TOKEN || github.token }}
+
     steps:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          token: ${{ secrets.RADAR_TOKEN || github.token }}
 
       - name: Skip Fridays
         id: gate
@@ -56,8 +66,6 @@ jobs:
         id: collect
         if: steps.gate.outputs.run == 'true'
         env:
-          # The default token gives 5,000 API requests/hour, which is
-          # plenty for ~42 projects three times a day.
           GITHUB_TOKEN: ${{ github.token }}
         run: |
           if [ "${{ inputs.dry_run }}" = "true" ]; then
@@ -68,24 +76,68 @@ jobs:
           MESSAGE=$(python scripts/collect.py | tail -n 1)
           echo "message=$MESSAGE" >> "$GITHUB_OUTPUT"
 
-      - name: Commit
+      - name: Open pull request
+        id: pr
         if: steps.gate.outputs.run == 'true' && inputs.dry_run != true
         run: |
-          # Author the commit as the repository owner so it counts as a
+          set -euo pipefail
+
+          # Author as the repository owner so the commit counts as a
           # contribution; the bot identity would not.
           git config user.name  "${{ github.repository_owner }}"
           git config user.email "${{ vars.GIT_EMAIL }}"
 
-          git add data charts README.md
-
-          if git diff --cached --quiet; then
-            echo "Nothing changed."
+          if git diff --quiet -- data charts README.md; then
+            echo "No change in the data; nothing to propose."
             exit 0
           fi
 
+          BRANCH="data/$(date -u +%Y-%m-%d-%H%M)"
+          git checkout -b "$BRANCH"
+          git add data charts README.md
           git commit -m "${{ steps.collect.outputs.message }}"
-          git pull --rebase --autostash
-          git push
+          git push -u origin "$BRANCH"
+
+          # The diff is machine-generated, so the body summarises what
+          # changed rather than asking a human to read 42 changed rows.
+          {
+            echo "Automated data update."
+            echo
+            echo '```'
+            git diff --stat "origin/${{ github.ref_name }}...$BRANCH" -- data charts
+            echo '```'
+            echo
+            echo "Merged automatically once CI passes."
+          } > /tmp/pr-body.md
+
+          PR_URL=$(gh pr create \
+            --base "${{ github.ref_name }}" \
+            --head "$BRANCH" \
+            --title "${{ steps.collect.outputs.message }}" \
+            --body-file /tmp/pr-body.md)
+
+          echo "url=$PR_URL" >> "$GITHUB_OUTPUT"
+          echo "Opened $PR_URL"
+
+      - name: Merge pull request
+        if: steps.pr.outputs.url != ''
+        run: |
+          # --squash keeps main at one commit per run rather than one per
+          # branch plus a merge commit.
+          gh pr merge "${{ steps.pr.outputs.url }}" --squash --delete-branch
+
+      - name: Sync issues
+        if: steps.gate.outputs.run == 'true' && inputs.dry_run != true
+        continue-on-error: true
+        env:
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          GITHUB_TOKEN: ${{ secrets.RADAR_TOKEN || github.token }}
+        run: |
+          # Never fatal: a rejected issue write must not fail a run whose
+          # data has already landed.
+          git checkout "${{ github.ref_name }}"
+          git pull --ff-only
+          python scripts/sync_issues.py
 
       - name: Upload artifacts on failure
         if: failure()
