@@ -138,7 +138,62 @@ not fail a run whose data has already merged.
 
 ## Ecosystem Radar
 
-_No data collected yet. The first scheduled run will populate this section._
+_Last run: **2026-08-24 07:12 UTC** · 42 projects · 84 observations · 2 days of history (2026-08-23 → 2026-08-24)_
+
+![Category momentum](charts/categories.svg)
+
+### Fastest growing (30d, star growth as % of base)
+
+| Project | Category | Stars | 30d | Growth | Momentum |
+| --- | --- | ---: | ---: | ---: | ---: |
+| [open-telemetry/opentelemetry-collector](https://github.com/open-telemetry/opentelemetry-collector) | Platform & DevOps | 7,447 | +4 | 0.05% | 3.25 |
+| [dagster-io/dagster](https://github.com/dagster-io/dagster) | Data engineering | 16,057 | +6 | 0.04% | 2.37 |
+| [optuna/optuna](https://github.com/optuna/optuna) | Machine learning | 14,695 | +6 | 0.04% | 2.37 |
+| [valkey-io/valkey](https://github.com/valkey-io/valkey) | Databases | 26,959 | +8 | 0.03% | 1.48 |
+| [mlflow/mlflow](https://github.com/mlflow/mlflow) | Machine learning | 27,639 | +9 | 0.03% | 1.48 |
+| [unionai-oss/pandera](https://github.com/unionai-oss/pandera) | Data engineering | 4,440 | +1 | 0.02% | 0.59 |
+| [scikit-learn/scikit-learn](https://github.com/scikit-learn/scikit-learn) | Machine learning | 67,042 | +12 | 0.02% | 0.59 |
+| [PrefectHQ/prefect](https://github.com/PrefectHQ/prefect) | Data engineering | 23,664 | +5 | 0.02% | 0.59 |
+
+
+### Losing momentum (30d)
+
+| Project | Category | Stars | 30d | Growth | Momentum |
+| --- | --- | ---: | ---: | ---: | ---: |
+| [streamlit/streamlit](https://github.com/streamlit/streamlit) | Visualisation & apps | 45,599 | +1 | 0.00% | -1.18 |
+| [timescale/timescaledb](https://github.com/timescale/timescaledb) | Databases | 23,403 | +1 | 0.00% | -1.18 |
+| [pallets/flask](https://github.com/pallets/flask) | Web & backend | 72,146 | +3 | 0.00% | -1.18 |
+| [plotly/plotly.py](https://github.com/plotly/plotly.py) | Visualisation & apps | 18,751 | +0 | 0.00% | -1.18 |
+| [gradio-app/gradio](https://github.com/gradio-app/gradio) | Visualisation & apps | 43,409 | +2 | 0.00% | -1.18 |
+
+
+### Categories
+
+| Category | Projects | Stars | 30d | Median growth | Stale |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| Machine learning | 8 | 467,320 | +71 | 0.02% | 0 |
+| Platform & DevOps | 5 | 324,072 | +42 | 0.01% | 0 |
+| Data engineering | 12 | 275,813 | +41 | 0.01% | 0 |
+| Databases | 6 | 215,019 | +28 | 0.01% | 0 |
+| Web & backend | 5 | 306,736 | +28 | 0.01% | 1 |
+| Visualisation & apps | 6 | 215,762 | +17 | 0.00% | 0 |
+
+
+### Watchlist
+
+| Project | Days since push | Open issues / 1k stars | Flag |
+| --- | ---: | ---: | --- |
+| [encode/httpx](https://github.com/encode/httpx) | 148 | 9.27 | stalled |
+| [ibis-project/ibis](https://github.com/ibis-project/ibis) | 2 | 79.07 | issue load |
+| [plotly/plotly.py](https://github.com/plotly/plotly.py) | 2 | 41.60 | issue load |
+| [apache/arrow](https://github.com/apache/arrow) | 1 | 151.77 | issue load |
+| [delta-io/delta](https://github.com/delta-io/delta) | 1 | 103.90 | issue load |
+| [unionai-oss/pandera](https://github.com/unionai-oss/pandera) | 1 | 100.00 | issue load |
+| [dagster-io/dagster](https://github.com/dagster-io/dagster) | 1 | 161.55 | issue load |
+| [pola-rs/polars](https://github.com/pola-rs/polars) | 0 | 72.40 | issue load |
+
+
+_Generated automatically. Methodology in [`docs/METHODOLOGY.md`](docs/METHODOLOGY.md)._
 
 <!-- RADAR:END -->
 
