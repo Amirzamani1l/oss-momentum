@@ -103,3 +103,55 @@ branch will not be flagged.
 Raw API responses are archived under `data/snapshots/YYYY-MM-DD.json`.
 The derived table can be rebuilt from them at any time; the analysis layer
 is pure and deterministic given the same input.
+
+## Findings
+
+After each run, five conditions are evaluated against the latest snapshot.
+Each produces a `Finding` with a stable key of the form `kind:owner/repo`.
+
+| Kind | Condition | Severity |
+| --- | --- | --- |
+| `stalled` | `days_since_push > 45` | medium |
+| `spike` | `momentum_z >= 2.5` | info |
+| `slump` | `growth_30d_pct < 0` | medium |
+| `drought` | `days_since_release > 180` **and** `pypi_cadence_days < 45` | medium |
+| `unreachable` | 3 consecutive failed fetches | high |
+
+`drought` deliberately requires both halves. A project that has always
+released twice a year going quiet for six months is not news; a project
+that shipped every fortnight and then stopped is.
+
+`spike` is set at 2.5 standard deviations rather than 2.0 because star
+growth has fat tails — a single popular post moves a project several
+sigma without any change in adoption. The threshold is chosen to fire
+rarely enough that each occurrence is worth reading.
+
+### Reconciliation
+
+Findings are diffed against currently open issues, not pushed as events:
+
+| State | Action |
+| --- | --- |
+| Finding exists, no issue | Open one |
+| Issue exists, finding cleared | Comment why, then close |
+| Both exist | Do nothing |
+| Issue has no radar marker | Ignore entirely |
+
+The last row is the important one. Every generated issue embeds
+`<!-- radar:kind:owner/repo -->` in its body, and only issues carrying
+that marker are considered. Issues opened by a human are never read,
+modified or closed.
+
+Because the sync computes a desired state rather than reacting to changes,
+running it repeatedly is a no-op. Three runs a day on an unchanged
+ecosystem produce zero issue activity.
+
+### Known limitations of the findings
+
+- **`slump` is noisy.** GitHub periodically prunes spam accounts, which
+  shows up as a genuine star loss across many projects at once. The issue
+  body says so, but the condition cannot distinguish the two.
+- **`stalled` uses `pushed_at`**, which covers every branch. A project
+  with active feature branches and a frozen default branch will not fire.
+- **`unreachable` cannot tell a rename from a deletion.** Both look like
+  a 404. The issue asks a human to check.

@@ -30,6 +30,14 @@ class Transport(Protocol):
     def get_json(self, url: str, headers: dict[str, str]) -> Any: ...
 
 
+class MutatingTransport(Transport, Protocol):
+    """Adds the verbs needed to write to the Issues API."""
+
+    def send_json(
+        self, method: str, url: str, headers: dict[str, str], payload: dict[str, Any]
+    ) -> Any: ...
+
+
 class HttpTransport:
     """urllib-backed transport with retry and polite backoff.
 
@@ -69,6 +77,18 @@ class HttpTransport:
 
         assert last_error is not None
         raise last_error
+
+    def send_json(
+        self, method: str, url: str, headers: dict[str, str], payload: dict[str, Any]
+    ) -> Any:
+        """POST/PATCH with a JSON body. Not retried: a write that may have
+        partially succeeded is safer to surface than to repeat blindly."""
+        body = json.dumps(payload).encode("utf-8")
+        merged = {**headers, "Content-Type": "application/json"}
+        request = urllib.request.Request(url, data=body, headers=merged, method=method)
+        with urllib.request.urlopen(request, timeout=self.timeout) as response:
+            raw = response.read()
+            return json.loads(raw) if raw else {}
 
     def _retry_after(self, exc: urllib.error.HTTPError) -> float:
         reset = exc.headers.get("X-RateLimit-Reset")

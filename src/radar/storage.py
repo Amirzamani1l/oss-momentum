@@ -14,6 +14,7 @@ DATA_DIR = Path("data")
 OBSERVATIONS = DATA_DIR / "observations.csv"
 SNAPSHOT_DIR = DATA_DIR / "snapshots"
 REPORT_JSON = DATA_DIR / "latest_report.json"
+HEALTH = DATA_DIR / "health.json"
 CHART_DIR = Path("charts")
 README = Path("README.md")
 
@@ -49,3 +50,40 @@ def write_text(path: Path, content: str) -> None:
 
 def read_text(path: Path, default: str = "") -> str:
     return path.read_text(encoding="utf-8") if path.exists() else default
+
+
+def load_health(path: Path = HEALTH) -> dict[str, int]:
+    """Consecutive fetch-failure counts per repo.
+
+    Kept out of the observation table because it describes the collector,
+    not the ecosystem.
+    """
+    if not path.exists():
+        return {}
+    try:
+        raw = json.loads(path.read_text(encoding="utf-8"))
+    except (json.JSONDecodeError, OSError):
+        return {}
+    return {str(k): int(v) for k, v in raw.items() if isinstance(v, int | float)}
+
+
+def save_health(counts: dict[str, int], path: Path = HEALTH) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    # Repos that recovered are dropped rather than stored as zero, so the
+    # file stays small and its contents are always actionable.
+    live = {k: v for k, v in sorted(counts.items()) if v > 0}
+    path.write_text(json.dumps(live, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+
+
+def update_health(
+    previous: dict[str, int], failed: list[str], attempted: list[str]
+) -> dict[str, int]:
+    """Increment failures, reset anything that succeeded this run."""
+    updated = dict(previous)
+    failures = set(failed)
+    for repo in attempted:
+        if repo in failures:
+            updated[repo] = updated.get(repo, 0) + 1
+        else:
+            updated.pop(repo, None)
+    return updated

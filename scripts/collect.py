@@ -113,9 +113,18 @@ def main() -> int:
     fresh = transform.build_frame(results, now)
     merged = transform.merge_history(history, fresh)
 
+    # Track consecutive failures so a repo that has genuinely disappeared
+    # can be told apart from one blip.
+    health = storage.update_health(
+        storage.load_health(),
+        failed=[r.repo for r in failures],
+        attempted=[p.repo for p in projects],
+    )
+
     if not args.dry_run:
         storage.save_history(merged)
         storage.save_snapshot([asdict(r) for r in results], now)
+        storage.save_health(health)
 
     log.info("history now holds %d observations", len(merged))
     render(merged, now, args.dry_run)

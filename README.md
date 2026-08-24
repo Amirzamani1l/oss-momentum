@@ -29,6 +29,34 @@ Per project, per day:
 Raw API responses are archived per day under `data/snapshots/`, so the
 derived table can always be rebuilt from source.
 
+## What it does with what it finds
+
+The pipeline does not just publish numbers — it acts on them.
+
+**Data lands through a pull request.** Each run commits to a branch,
+opens a PR with a diffstat, waits for CI, and squash-merges. Every change
+to the dataset is therefore reviewable after the fact, and a run that
+produces a broken table fails CI instead of landing on `main`.
+
+**Findings become issues.** After each run the analysis is checked against
+five conditions, and open issues are reconciled against them:
+
+| Finding | Condition |
+| --- | --- |
+| `stalled` | No push in 45 days |
+| `spike` | Momentum z-score ≥ 2.5 |
+| `slump` | Negative 30-day growth |
+| `drought` | No release in 180 days, for a project whose median cadence is under 45 |
+| `unreachable` | Three consecutive failed fetches — renamed, private or deleted |
+
+A condition that appears opens an issue. A condition that clears closes it,
+with a comment saying why. A condition that persists is left alone, so
+nothing churns.
+
+Every generated issue carries an HTML-comment marker in its body, and only
+issues carrying that marker are ever touched. **Anything a human opens is
+never modified or closed.**
+
 ## Layout
 
 ```
@@ -37,11 +65,15 @@ src/radar/
   sources.py     HTTP transport + GitHub/PyPI clients
   transform.py   payloads -> tidy rows (pure)
   analyze.py     deltas, growth, z-scores, aggregates (pure)
+  alerts.py      findings + issue reconciliation (pure)
+  issues.py      GitHub Issues client
   charts.py      dependency-free SVG
   report.py      Markdown + JSON rendering (pure)
   storage.py     the only module that touches disk
-scripts/collect.py   pipeline entrypoint
-tests/               122 tests, no network
+scripts/
+  collect.py     pipeline entrypoint
+  sync_issues.py issue reconciliation entrypoint
+tests/               181 tests, no network
 data/observations.csv   the dataset
 ```
 
@@ -65,6 +97,9 @@ GITHUB_TOKEN=ghp_xxx python scripts/collect.py
 
 # Rebuild charts and README from stored data, no network.
 python scripts/collect.py --report-only
+
+# Show which issues would be opened, without a token.
+python scripts/sync_issues.py --dry-run
 ```
 
 A token is optional but strongly recommended: unauthenticated GitHub API
@@ -90,66 +125,20 @@ subsequent delta.
 add roughly 30 seconds to every run and commit binary blobs that make the
 history unreviewable.
 
+**Reconciliation, not notification.** The issue sync computes a desired
+state and diffs it against reality, rather than firing an event whenever
+something looks wrong. That is what makes it safe to run three times a day:
+a condition that has not changed produces no action at all.
+
+**Issue writes are never fatal.** `apply_plan` catches per-issue failures
+and the workflow step is `continue-on-error`. A rejected issue write must
+not fail a run whose data has already merged.
+
 <!-- RADAR:START -->
 
 ## Ecosystem Radar
 
-_Last run: **2026-08-24 02:36 UTC** · 42 projects · 84 observations · 2 days of history (2026-08-23 → 2026-08-24)_
-
-![Category momentum](charts/categories.svg)
-
-### Fastest growing (30d, star growth as % of base)
-
-| Project | Category | Stars | 30d | Growth | Momentum |
-| --- | --- | ---: | ---: | ---: | ---: |
-| [open-telemetry/opentelemetry-collector](https://github.com/open-telemetry/opentelemetry-collector) | Platform & DevOps | 7,447 | +4 | 0.05% | 4.41 |
-| [optuna/optuna](https://github.com/optuna/optuna) | Machine learning | 14,693 | +4 | 0.03% | 2.28 |
-| [dagster-io/dagster](https://github.com/dagster-io/dagster) | Data engineering | 16,055 | +4 | 0.02% | 1.22 |
-| [unionai-oss/pandera](https://github.com/unionai-oss/pandera) | Data engineering | 4,440 | +1 | 0.02% | 1.22 |
-| [valkey-io/valkey](https://github.com/valkey-io/valkey) | Databases | 26,956 | +5 | 0.02% | 1.22 |
-| [pola-rs/polars](https://github.com/pola-rs/polars) | Data engineering | 39,460 | +2 | 0.01% | 0.15 |
-| [questdb/questdb](https://github.com/questdb/questdb) | Databases | 17,273 | +2 | 0.01% | 0.15 |
-| [ray-project/ray](https://github.com/ray-project/ray) | Machine learning | 43,587 | +4 | 0.01% | 0.15 |
-
-
-### Losing momentum (30d)
-
-| Project | Category | Stars | 30d | Growth | Momentum |
-| --- | --- | ---: | ---: | ---: | ---: |
-| [streamlit/streamlit](https://github.com/streamlit/streamlit) | Visualisation & apps | 45,599 | +1 | 0.00% | -0.91 |
-| [postgres/postgres](https://github.com/postgres/postgres) | Databases | 21,879 | +1 | 0.00% | -0.91 |
-| [prometheus/prometheus](https://github.com/prometheus/prometheus) | Platform & DevOps | 65,788 | +3 | 0.00% | -0.91 |
-| [timescale/timescaledb](https://github.com/timescale/timescaledb) | Databases | 23,403 | +1 | 0.00% | -0.91 |
-| [ClickHouse/ClickHouse](https://github.com/ClickHouse/ClickHouse) | Databases | 49,405 | +2 | 0.00% | -0.91 |
-
-
-### Categories
-
-| Category | Projects | Stars | 30d | Median growth | Stale |
-| --- | ---: | ---: | ---: | ---: | ---: |
-| Machine learning | 8 | 467,292 | +43 | 0.01% | 0 |
-| Platform & DevOps | 5 | 324,059 | +29 | 0.01% | 0 |
-| Web & backend | 5 | 306,731 | +23 | 0.01% | 1 |
-| Data engineering | 12 | 275,793 | +21 | 0.01% | 0 |
-| Databases | 6 | 215,008 | +17 | 0.00% | 0 |
-| Visualisation & apps | 6 | 215,757 | +12 | 0.00% | 0 |
-
-
-### Watchlist
-
-| Project | Days since push | Open issues / 1k stars | Flag |
-| --- | ---: | ---: | --- |
-| [encode/httpx](https://github.com/encode/httpx) | 148 | 9.27 | stalled |
-| [scikit-learn/scikit-learn](https://github.com/scikit-learn/scikit-learn) | 2 | 31.73 | issue load |
-| [plotly/plotly.py](https://github.com/plotly/plotly.py) | 2 | 41.60 | issue load |
-| [hashicorp/terraform](https://github.com/hashicorp/terraform) | 2 | 38.67 | issue load |
-| [ibis-project/ibis](https://github.com/ibis-project/ibis) | 2 | 78.93 | issue load |
-| [apache/arrow](https://github.com/apache/arrow) | 1 | 151.78 | issue load |
-| [delta-io/delta](https://github.com/delta-io/delta) | 1 | 103.80 | issue load |
-| [dagster-io/dagster](https://github.com/dagster-io/dagster) | 1 | 161.57 | issue load |
-
-
-_Generated automatically. Methodology in [`docs/METHODOLOGY.md`](docs/METHODOLOGY.md)._
+_No data collected yet. The first scheduled run will populate this section._
 
 <!-- RADAR:END -->
 
