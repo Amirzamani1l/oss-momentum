@@ -138,7 +138,7 @@ not fail a run whose data has already merged.
 
 ## Ecosystem Radar
 
-_Last run: **2026-08-24 17:56 UTC** · 42 projects · 84 observations · 2 days of history (2026-08-23 → 2026-08-24)_
+_Last run: **2026-08-25 02:31 UTC** · 42 projects · 126 observations · 3 days of history (2026-08-23 → 2026-08-25)_
 
 ![Category momentum](charts/categories.svg)
 
@@ -146,51 +146,51 @@ _Last run: **2026-08-24 17:56 UTC** · 42 projects · 84 observations · 2 days 
 
 | Project | Category | Stars | 30d | Growth | Momentum |
 | --- | --- | ---: | ---: | ---: | ---: |
-| [mlflow/mlflow](https://github.com/mlflow/mlflow) | Machine learning | 27,654 | +24 | 0.09% | 3.01 |
-| [unionai-oss/pandera](https://github.com/unionai-oss/pandera) | Data engineering | 4,442 | +3 | 0.07% | 2.02 |
-| [open-telemetry/opentelemetry-collector](https://github.com/open-telemetry/opentelemetry-collector) | Platform & DevOps | 7,448 | +5 | 0.07% | 2.02 |
-| [duckdb/duckdb](https://github.com/duckdb/duckdb) | Data engineering | 40,575 | +26 | 0.06% | 1.52 |
-| [optuna/optuna](https://github.com/optuna/optuna) | Machine learning | 14,698 | +9 | 0.06% | 1.52 |
-| [ClickHouse/ClickHouse](https://github.com/ClickHouse/ClickHouse) | Databases | 49,426 | +23 | 0.05% | 1.03 |
-| [valkey-io/valkey](https://github.com/valkey-io/valkey) | Databases | 26,964 | +13 | 0.05% | 1.03 |
-| [ray-project/ray](https://github.com/ray-project/ray) | Machine learning | 43,599 | +16 | 0.04% | 0.53 |
+| [django/django](https://github.com/django/django) | Web & backend | 88,922 | +170 | 0.19% | 3.91 |
+| [kubernetes/kubernetes](https://github.com/kubernetes/kubernetes) | Platform & DevOps | 125,110 | +186 | 0.15% | 2.85 |
+| [mlflow/mlflow](https://github.com/mlflow/mlflow) | Machine learning | 27,661 | +31 | 0.11% | 1.78 |
+| [duckdb/duckdb](https://github.com/duckdb/duckdb) | Data engineering | 40,585 | +36 | 0.09% | 1.25 |
+| [optuna/optuna](https://github.com/optuna/optuna) | Machine learning | 14,702 | +13 | 0.09% | 1.25 |
+| [valkey-io/valkey](https://github.com/valkey-io/valkey) | Databases | 26,971 | +20 | 0.07% | 0.72 |
+| [unionai-oss/pandera](https://github.com/unionai-oss/pandera) | Data engineering | 4,442 | +3 | 0.07% | 0.72 |
+| [open-telemetry/opentelemetry-collector](https://github.com/open-telemetry/opentelemetry-collector) | Platform & DevOps | 7,448 | +5 | 0.07% | 0.72 |
 
 
 ### Losing momentum (30d)
 
 | Project | Category | Stars | 30d | Growth | Momentum |
 | --- | --- | ---: | ---: | ---: | ---: |
-| [altair-viz/altair](https://github.com/altair-viz/altair) | Visualisation & apps | 10,458 | +0 | 0.00% | -1.45 |
-| [matplotlib/matplotlib](https://github.com/matplotlib/matplotlib) | Visualisation & apps | 23,104 | +1 | 0.00% | -1.45 |
-| [redis/redis](https://github.com/redis/redis) | Databases | 76,096 | +10 | 0.01% | -0.96 |
-| [streamlit/streamlit](https://github.com/streamlit/streamlit) | Visualisation & apps | 45,601 | +3 | 0.01% | -0.96 |
-| [pallets/flask](https://github.com/pallets/flask) | Web & backend | 72,148 | +5 | 0.01% | -0.96 |
+| [altair-viz/altair](https://github.com/altair-viz/altair) | Visualisation & apps | 10,458 | +0 | 0.00% | -1.14 |
+| [matplotlib/matplotlib](https://github.com/matplotlib/matplotlib) | Visualisation & apps | 23,104 | +1 | 0.00% | -1.14 |
+| [microsoft/LightGBM](https://github.com/microsoft/LightGBM) | Machine learning | 18,710 | +2 | 0.01% | -0.87 |
+| [dmlc/xgboost](https://github.com/dmlc/xgboost) | Machine learning | 28,690 | +2 | 0.01% | -0.87 |
+| [pallets/flask](https://github.com/pallets/flask) | Web & backend | 72,147 | +4 | 0.01% | -0.87 |
 
 
 ### Categories
 
 | Category | Projects | Stars | 30d | Median growth | Stale |
 | --- | ---: | ---: | ---: | ---: | ---: |
-| Machine learning | 8 | 467,377 | +128 | 0.03% | 0 |
-| Platform & DevOps | 5 | 324,132 | +102 | 0.03% | 0 |
-| Data engineering | 12 | 275,864 | +92 | 0.04% | 0 |
-| Web & backend | 5 | 306,782 | +74 | 0.03% | 1 |
-| Databases | 6 | 215,049 | +58 | 0.02% | 0 |
-| Visualisation & apps | 6 | 215,776 | +31 | 0.01% | 0 |
+| Platform & DevOps | 5 | 324,283 | +253 | 0.04% | 0 |
+| Web & backend | 5 | 306,930 | +222 | 0.03% | 1 |
+| Machine learning | 8 | 467,408 | +159 | 0.04% | 0 |
+| Data engineering | 12 | 275,886 | +114 | 0.04% | 0 |
+| Databases | 6 | 215,072 | +81 | 0.04% | 0 |
+| Visualisation & apps | 6 | 215,784 | +39 | 0.02% | 0 |
 
 
 ### Watchlist
 
 | Project | Days since push | Open issues / 1k stars | Flag |
 | --- | ---: | ---: | --- |
-| [encode/httpx](https://github.com/encode/httpx) | 148 | 9.27 | stalled |
-| [ibis-project/ibis](https://github.com/ibis-project/ibis) | 2 | 79.05 | issue load |
-| [unionai-oss/pandera](https://github.com/unionai-oss/pandera) | 1 | 99.95 | issue load |
+| [encode/httpx](https://github.com/encode/httpx) | 149 | 9.27 | stalled |
+| [ibis-project/ibis](https://github.com/ibis-project/ibis) | 3 | 79.20 | issue load |
+| [unionai-oss/pandera](https://github.com/unionai-oss/pandera) | 2 | 99.95 | issue load |
+| [microsoft/LightGBM](https://github.com/microsoft/LightGBM) | 1 | 27.37 | issue load |
 | [matplotlib/matplotlib](https://github.com/matplotlib/matplotlib) | 1 | 63.76 | issue load |
-| [pola-rs/polars](https://github.com/pola-rs/polars) | 0 | 72.66 | issue load |
-| [questdb/questdb](https://github.com/questdb/questdb) | 0 | 53.84 | issue load |
-| [plotly/plotly.py](https://github.com/plotly/plotly.py) | 0 | 41.54 | issue load |
-| [redis/redis](https://github.com/redis/redis) | 0 | 38.27 | issue load |
+| [scikit-learn/scikit-learn](https://github.com/scikit-learn/scikit-learn) | 0 | 31.73 | issue load |
+| [questdb/questdb](https://github.com/questdb/questdb) | 0 | 54.12 | issue load |
+| [pytorch/pytorch](https://github.com/pytorch/pytorch) | 0 | 168.80 | issue load |
 
 
 _Generated automatically. Methodology in [`docs/METHODOLOGY.md`](docs/METHODOLOGY.md)._
