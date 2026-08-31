@@ -1,12 +1,4 @@
 #!/usr/bin/env python3
-"""Open and close issues for whatever the latest data says.
-
-Runs after collection. Reads only stored data, so it can be re-run at any
-time without touching the APIs it collects from.
-
-    GITHUB_TOKEN=... GITHUB_REPOSITORY=owner/name python scripts/sync_issues.py
-    python scripts/sync_issues.py --dry-run
-"""
 
 from __future__ import annotations
 
