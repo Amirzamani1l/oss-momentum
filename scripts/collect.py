@@ -1,10 +1,5 @@
 #!/usr/bin/env python3
-"""Pipeline entrypoint: collect -> transform -> analyse -> render.
 
-Run locally with:
-    GITHUB_TOKEN=ghp_xxx python scripts/collect.py
-    python scripts/collect.py --dry-run     # no writes
-"""
 
 from __future__ import annotations
 
