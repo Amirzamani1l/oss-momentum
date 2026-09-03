@@ -10,7 +10,7 @@ date,repo,category,stars,forks,watchers,open_issues,size_kb,days_since_push,lang
 2026-08-31,ClickHouse/ClickHouse,database,49572,8880,687,7284,11658522,0,C++,Apache-2.0,v26.3.27.3-lts,0,,,,
 2026-09-01,ClickHouse/ClickHouse,database,49596,8884,690,7338,11668398,0,C++,Apache-2.0,v26.3.28.5-lts,0,,,,
 2026-09-02,ClickHouse/ClickHouse,database,49610,8894,691,7409,11709866,0,C++,Apache-2.0,v26.3.29.7-lts,0,,,,
-2026-09-03,ClickHouse/ClickHouse,database,49627,8897,691,7447,11734053,0,C++,Apache-2.0,v26.3.29.7-lts,1,,,,
+2026-09-03,ClickHouse/ClickHouse,database,49632,8897,690,7426,11747297,0,C++,Apache-2.0,v26.3.29.7-lts,1,,,,
 2026-08-23,PrefectHQ/prefect,data-engineering,23659,2475,196,854,235728,0,Python,Apache-2.0,3.8.3,9,3.8.3,868,1.0,"<3.15,>=3.10"
 2026-08-24,PrefectHQ/prefect,data-engineering,23668,2481,196,864,236447,0,Python,Apache-2.0,3.8.3,10,3.8.3,868,1.0,"<3.15,>=3.10"
 2026-08-25,PrefectHQ/prefect,data-engineering,23681,2481,196,864,236124,0,Python,Apache-2.0,3.8.4,0,3.8.4,870,1.0,"<3.15,>=3.10"
@@ -22,7 +22,7 @@ date,repo,category,stars,forks,watchers,open_issues,size_kb,days_since_push,lang
 2026-08-31,PrefectHQ/prefect,data-engineering,23739,2497,197,867,236292,0,Python,Apache-2.0,3.8.4,6,3.8.4,873,1.0,"<3.15,>=3.10"
 2026-09-01,PrefectHQ/prefect,data-engineering,23756,2499,198,867,236447,0,Python,Apache-2.0,3.8.4,7,3.8.4,874,1.02,"<3.15,>=3.10"
 2026-09-02,PrefectHQ/prefect,data-engineering,23764,2501,198,871,236536,0,Python,Apache-2.0,3.8.4,8,3.8.4,876,1.02,"<3.15,>=3.10"
-2026-09-03,PrefectHQ/prefect,data-engineering,23771,2502,198,871,236691,0,Python,Apache-2.0,3.8.4,8,3.8.4,877,1.02,"<3.15,>=3.10"
+2026-09-03,PrefectHQ/prefect,data-engineering,23771,2501,198,860,236716,0,Python,Apache-2.0,3.8.4,9,3.8.4,877,1.02,"<3.15,>=3.10"
 2026-08-23,altair-viz/altair,visualisation,10458,866,136,145,121418,7,Python,BSD-3-Clause,v6.2.2,61,6.2.2,67,7.0,>=3.10
 2026-08-24,altair-viz/altair,visualisation,10458,866,136,145,121418,8,Python,BSD-3-Clause,v6.2.2,62,6.2.2,67,7.0,>=3.10
 2026-08-25,altair-viz/altair,visualisation,10458,867,136,146,121418,9,Python,BSD-3-Clause,v6.2.2,63,6.2.2,67,7.0,>=3.10
@@ -46,7 +46,7 @@ date,repo,category,stars,forks,watchers,open_issues,size_kb,days_since_push,lang
 2026-08-31,apache/airflow,data-engineering,46669,17714,781,2021,702033,0,Python,Apache-2.0,3.3.1,19,3.3.1,298,4.03,"!=3.15,>=3.10"
 2026-09-01,apache/airflow,data-engineering,46687,17718,785,2053,702281,0,Python,Apache-2.0,3.3.1,20,3.3.1,298,4.03,"!=3.15,>=3.10"
 2026-09-02,apache/airflow,data-engineering,46697,17735,785,2087,703322,0,Python,Apache-2.0,3.3.1,21,3.3.1,298,4.03,"!=3.15,>=3.10"
-2026-09-03,apache/airflow,data-engineering,46711,17746,785,2109,702260,0,Python,Apache-2.0,3.3.1,22,3.3.1,298,4.03,"!=3.15,>=3.10"
+2026-09-03,apache/airflow,data-engineering,46717,17747,786,2116,702318,0,Python,Apache-2.0,3.3.1,22,3.3.1,298,4.03,"!=3.15,>=3.10"
 2026-08-23,apache/arrow,data-engineering,17043,4252,341,2585,233087,1,C++,Apache-2.0,apache-arrow-25.0.1,13,25.0.1,65,67.73,>=3.10
 2026-08-24,apache/arrow,data-engineering,17046,4257,341,2592,233167,0,C++,Apache-2.0,apache-arrow-25.0.1,14,25.0.1,65,67.73,>=3.10
 2026-08-25,apache/arrow,data-engineering,17048,4258,341,2588,233143,0,C++,Apache-2.0,apache-arrow-25.0.1,15,25.0.1,65,67.73,>=3.10
@@ -58,7 +58,7 @@ date,repo,category,stars,forks,watchers,open_issues,size_kb,days_since_push,lang
 2026-08-31,apache/arrow,data-engineering,17074,4266,342,2594,233326,0,C++,Apache-2.0,apache-arrow-25.0.1,21,25.0.1,65,67.73,>=3.10
 2026-09-01,apache/arrow,data-engineering,17077,4266,345,2594,233325,0,C++,Apache-2.0,apache-arrow-25.0.1,22,25.0.1,65,67.73,>=3.10
 2026-09-02,apache/arrow,data-engineering,17076,4269,345,2598,233386,0,C++,Apache-2.0,apache-arrow-25.0.1,23,25.0.1,65,67.73,>=3.10
-2026-09-03,apache/arrow,data-engineering,17079,4269,345,2596,233424,0,C++,Apache-2.0,apache-arrow-25.0.1,24,25.0.1,65,67.73,>=3.10
+2026-09-03,apache/arrow,data-engineering,17080,4269,345,2592,233484,0,C++,Apache-2.0,apache-arrow-25.0.1,24,25.0.1,65,67.73,>=3.10
 2026-08-23,apache/iceberg,data-engineering,9165,3469,182,925,112136,0,Java,Apache-2.0,apache-iceberg-1.11.0,95,,,,
 2026-08-24,apache/iceberg,data-engineering,9166,3473,181,920,112148,0,Java,Apache-2.0,apache-iceberg-1.11.0,96,,,,
 2026-08-25,apache/iceberg,data-engineering,9172,3473,181,922,112152,0,Java,Apache-2.0,apache-iceberg-1.11.0,97,,,,
@@ -70,7 +70,7 @@ date,repo,category,stars,forks,watchers,open_issues,size_kb,days_since_push,lang
 2026-08-31,apache/iceberg,data-engineering,9190,3498,184,910,112263,0,Java,Apache-2.0,apache-iceberg-1.11.0,103,,,,
 2026-09-01,apache/iceberg,data-engineering,9191,3502,187,908,112359,0,Java,Apache-2.0,apache-iceberg-1.11.0,104,,,,
 2026-09-02,apache/iceberg,data-engineering,9192,3504,187,915,112348,0,Java,Apache-2.0,apache-iceberg-1.11.0,105,,,,
-2026-09-03,apache/iceberg,data-engineering,9199,3507,187,922,112691,0,Java,Apache-2.0,apache-iceberg-1.11.0,106,,,,
+2026-09-03,apache/iceberg,data-engineering,9199,3508,187,920,112675,0,Java,Apache-2.0,apache-iceberg-1.11.0,106,,,,
 2026-08-23,apache/superset,visualisation,74428,18157,1535,627,1122317,0,Python,Apache-2.0,6.1.0,101,6.1.0,83,25.15,>=3.10
 2026-08-24,apache/superset,visualisation,74447,18161,1535,632,1125144,0,Python,Apache-2.0,6.1.0,102,6.1.0,83,25.15,>=3.10
 2026-08-25,apache/superset,visualisation,74459,18162,1535,633,1123086,0,Python,Apache-2.0,6.1.0,103,6.1.0,83,25.15,>=3.10
@@ -82,7 +82,7 @@ date,repo,category,stars,forks,watchers,open_issues,size_kb,days_since_push,lang
 2026-08-31,apache/superset,visualisation,74564,18208,1537,615,1127137,0,Python,Apache-2.0,6.1.0,110,6.1.0,83,25.15,>=3.10
 2026-09-01,apache/superset,visualisation,74575,18210,1540,628,1128381,0,Python,Apache-2.0,6.1.0,111,6.1.0,83,25.15,>=3.10
 2026-09-02,apache/superset,visualisation,74588,18217,1540,617,1129372,0,Python,Apache-2.0,6.1.0,112,6.1.0,83,25.15,>=3.10
-2026-09-03,apache/superset,visualisation,74611,18226,1540,612,1130888,0,Python,Apache-2.0,6.1.0,112,6.1.0,83,25.15,>=3.10
+2026-09-03,apache/superset,visualisation,74613,18227,1540,600,1131955,0,Python,Apache-2.0,6.1.0,113,6.1.0,83,25.15,>=3.10
 2026-08-23,dagster-io/dagster,data-engineering,16051,2255,155,2595,1460989,1,Python,Apache-2.0,1.13.19,2,1.13.19,739,7.03,"<3.15,>=3.10"
 2026-08-24,dagster-io/dagster,data-engineering,16058,2257,155,2592,1461170,0,Python,Apache-2.0,1.13.19,3,1.13.19,739,7.03,"<3.15,>=3.10"
 2026-08-25,dagster-io/dagster,data-engineering,16059,2258,155,2586,1461309,0,Python,Apache-2.0,1.13.19,4,1.13.19,739,7.03,"<3.15,>=3.10"
@@ -94,7 +94,7 @@ date,repo,category,stars,forks,watchers,open_issues,size_kb,days_since_push,lang
 2026-08-31,dagster-io/dagster,data-engineering,16079,2267,156,2582,1461464,0,Python,Apache-2.0,1.13.20,4,1.13.20,740,7.03,"<3.15,>=3.10"
 2026-09-01,dagster-io/dagster,data-engineering,16081,2267,159,2583,1472239,0,Python,Apache-2.0,1.13.20,5,1.13.20,740,7.03,"<3.15,>=3.10"
 2026-09-02,dagster-io/dagster,data-engineering,16089,2268,159,2582,1474824,0,Python,Apache-2.0,1.13.20,6,1.13.20,740,7.03,"<3.15,>=3.10"
-2026-09-03,dagster-io/dagster,data-engineering,16096,2271,159,2584,1474839,0,Python,Apache-2.0,1.13.20,6,1.13.20,740,7.03,"<3.15,>=3.10"
+2026-09-03,dagster-io/dagster,data-engineering,16096,2270,159,2584,1474839,0,Python,Apache-2.0,1.13.20,7,1.13.21,741,7.03,"<3.15,>=3.10"
 2026-08-23,dbt-labs/dbt-core,data-engineering,13681,2518,161,1562,97359,0,Rust,Apache-2.0,v1.12.3,2,1.12.3,359,0.08,>=3.10
 2026-08-24,dbt-labs/dbt-core,data-engineering,13685,2520,161,1565,98474,0,Rust,Apache-2.0,v1.12.3,3,1.12.3,359,0.08,>=3.10
 2026-08-25,dbt-labs/dbt-core,data-engineering,13686,2523,161,1562,98902,0,Rust,Apache-2.0,v1.12.3,4,1.12.3,359,0.08,>=3.10
@@ -106,7 +106,7 @@ date,repo,category,stars,forks,watchers,open_issues,size_kb,days_since_push,lang
 2026-08-31,dbt-labs/dbt-core,data-engineering,13750,2541,161,1544,102802,0,Rust,Apache-2.0,v1.12.3,10,1.12.3,359,0.08,>=3.10
 2026-09-01,dbt-labs/dbt-core,data-engineering,13762,2544,163,1536,104416,0,Rust,Apache-2.0,v1.12.3,11,1.12.3,359,0.08,>=3.10
 2026-09-02,dbt-labs/dbt-core,data-engineering,13772,2544,163,1535,107449,0,Rust,Apache-2.0,v1.12.3,12,1.12.3,360,0.1,>=3.10
-2026-09-03,dbt-labs/dbt-core,data-engineering,13779,2543,163,1532,107004,0,Rust,Apache-2.0,v1.12.3,13,1.12.3,360,0.1,>=3.10
+2026-09-03,dbt-labs/dbt-core,data-engineering,13779,2542,163,1533,102299,0,Rust,Apache-2.0,v1.12.3,13,1.12.3,360,0.1,>=3.10
 2026-08-23,delta-io/delta,data-engineering,8950,2159,236,929,56353,1,Scala,Apache-2.0,v4.4.0,3,,,,
 2026-08-24,delta-io/delta,data-engineering,8954,2160,236,930,56353,0,Scala,Apache-2.0,v4.4.0,4,,,,
 2026-08-25,delta-io/delta,data-engineering,8955,2162,236,934,56453,0,Scala,Apache-2.0,v4.4.0,5,,,,
@@ -118,7 +118,7 @@ date,repo,category,stars,forks,watchers,open_issues,size_kb,days_since_push,lang
 2026-08-31,delta-io/delta,data-engineering,8979,2167,237,942,56995,0,Scala,Apache-2.0,v4.4.0,11,,,,
 2026-09-01,delta-io/delta,data-engineering,8982,2171,240,942,57065,0,Scala,Apache-2.0,v4.4.0,12,,,,
 2026-09-02,delta-io/delta,data-engineering,8982,2171,240,947,57111,0,Scala,Apache-2.0,v4.4.0,13,,,,
-2026-09-03,delta-io/delta,data-engineering,8985,2171,240,948,57216,0,Scala,Apache-2.0,v4.4.0,13,,,,
+2026-09-03,delta-io/delta,data-engineering,8984,2171,240,955,57258,0,Scala,Apache-2.0,v4.4.0,14,,,,
 2026-08-23,django/django,web-backend,88752,34165,2280,469,282140,2,Python,BSD-3-Clause,,,6.1,441,12.79,>=3.12
 2026-08-24,django/django,web-backend,88776,34172,2280,472,282129,0,Python,BSD-3-Clause,,,6.1,441,12.79,>=3.12
 2026-08-25,django/django,web-backend,88968,34180,2280,472,282129,1,Python,BSD-3-Clause,,,6.1,441,12.79,>=3.12
@@ -130,7 +130,7 @@ date,repo,category,stars,forks,watchers,open_issues,size_kb,days_since_push,lang
 2026-08-31,django/django,web-backend,89301,34214,2284,481,282204,0,Python,BSD-3-Clause,,,6.1,441,12.79,>=3.12
 2026-09-01,django/django,web-backend,89562,34215,2287,484,282204,0,Python,BSD-3-Clause,,,6.1,441,12.79,>=3.12
 2026-09-02,django/django,web-backend,89566,34217,2287,480,282468,0,Python,BSD-3-Clause,,,6.1.1,442,12.79,>=3.12
-2026-09-03,django/django,web-backend,89930,34225,2287,483,282468,0,Python,BSD-3-Clause,,,6.1.1,442,12.79,>=3.12
+2026-09-03,django/django,web-backend,89931,34229,2287,484,282414,0,Python,BSD-3-Clause,,,6.1.1,442,12.79,>=3.12
 2026-08-23,dmlc/xgboost,machine-learning,28688,8890,883,422,38298,0,C++,Apache-2.0,v3.4.1,8,3.4.1,97,29.79,>=3.12
 2026-08-24,dmlc/xgboost,machine-learning,28690,8890,883,420,38328,0,C++,Apache-2.0,v3.4.1,9,3.4.1,97,29.79,>=3.12
 2026-08-25,dmlc/xgboost,machine-learning,28689,8890,883,420,38339,0,C++,Apache-2.0,v3.4.1,10,3.4.1,97,29.79,>=3.12
@@ -142,7 +142,7 @@ date,repo,category,stars,forks,watchers,open_issues,size_kb,days_since_push,lang
 2026-08-31,dmlc/xgboost,machine-learning,28718,8892,882,429,38348,0,C++,Apache-2.0,v3.4.1,16,3.4.1,97,29.79,>=3.12
 2026-09-01,dmlc/xgboost,machine-learning,28720,8892,885,433,38372,0,C++,Apache-2.0,v3.4.1,17,3.4.1,97,29.79,>=3.12
 2026-09-02,dmlc/xgboost,machine-learning,28724,8892,885,431,38372,1,C++,Apache-2.0,v3.4.1,18,3.4.1,97,29.79,>=3.12
-2026-09-03,dmlc/xgboost,machine-learning,28730,8891,885,427,38399,0,C++,Apache-2.0,v3.4.1,19,3.4.1,97,29.79,>=3.12
+2026-09-03,dmlc/xgboost,machine-learning,28729,8891,885,427,38402,0,C++,Apache-2.0,v3.4.1,19,3.4.1,97,29.79,>=3.12
 2026-08-23,duckdb/duckdb,data-engineering,40549,3599,268,819,498959,1,C++,MIT,v1.5.5,32,1.5.5,128,0.57,>=3.10.0
 2026-08-24,duckdb/duckdb,data-engineering,40575,3603,268,822,500249,0,C++,MIT,v1.5.5,33,1.5.5,128,0.57,>=3.10.0
 2026-08-25,duckdb/duckdb,data-engineering,40608,3606,268,811,500928,0,C++,MIT,v1.5.5,34,1.5.5,128,0.57,>=3.10.0
@@ -154,7 +154,7 @@ date,repo,category,stars,forks,watchers,open_issues,size_kb,days_since_push,lang
 2026-08-31,duckdb/duckdb,data-engineering,40871,3692,272,835,503538,0,C++,MIT,v1.5.5,40,1.5.5,129,0.57,>=3.10.0
 2026-09-01,duckdb/duckdb,data-engineering,40909,3695,275,823,504294,0,C++,MIT,v1.5.5,41,1.5.5,129,0.57,>=3.10.0
 2026-09-02,duckdb/duckdb,data-engineering,40936,3700,276,855,505364,0,C++,MIT,v1.5.5,42,1.5.5,131,0.87,>=3.10.0
-2026-09-03,duckdb/duckdb,data-engineering,40964,3706,277,857,505161,0,C++,MIT,v1.5.5,43,1.5.5,131,0.87,>=3.10.0
+2026-09-03,duckdb/duckdb,data-engineering,40973,3709,277,863,505195,0,C++,MIT,v1.5.5,43,1.5.5,131,0.87,>=3.10.0
 2026-08-23,encode/httpx,web-backend,15430,1257,139,143,8594,147,Python,BSD-3-Clause,0.28.1,625,0.28.1,76,41.98,>=3.8
 2026-08-24,encode/httpx,web-backend,15431,1257,140,143,8594,148,Python,BSD-3-Clause,0.28.1,626,0.28.1,76,41.98,>=3.8
 2026-08-25,encode/httpx,web-backend,15435,1257,140,143,8594,149,Python,BSD-3-Clause,0.28.1,627,0.28.1,76,41.98,>=3.8
@@ -166,7 +166,7 @@ date,repo,category,stars,forks,watchers,open_issues,size_kb,days_since_push,lang
 2026-08-31,encode/httpx,web-backend,15463,1266,143,143,8594,155,Python,BSD-3-Clause,0.28.1,633,0.28.1,77,32.91,>=3.8
 2026-09-01,encode/httpx,web-backend,15464,1265,146,143,8594,156,Python,BSD-3-Clause,0.28.1,634,0.28.1,77,32.91,>=3.8
 2026-09-02,encode/httpx,web-backend,15462,1266,146,143,8594,157,Python,BSD-3-Clause,0.28.1,635,0.28.1,77,32.91,>=3.8
-2026-09-03,encode/httpx,web-backend,15460,1270,146,143,8594,158,Python,BSD-3-Clause,0.28.1,635,0.28.1,77,32.91,>=3.8
+2026-09-03,encode/httpx,web-backend,15459,1271,146,143,8594,158,Python,BSD-3-Clause,0.28.1,636,0.28.1,77,32.91,>=3.8
 2026-08-23,fastapi/fastapi,web-backend,101787,9807,767,79,55589,4,Python,MIT,0.141.1,25,0.141.1,317,0.07,>=3.10
 2026-08-24,fastapi/fastapi,web-backend,101820,9811,767,76,55589,5,Python,MIT,0.141.1,26,0.141.1,317,0.07,>=3.10
 2026-08-25,fastapi/fastapi,web-backend,101841,9817,765,77,55047,0,Python,MIT,0.141.1,27,0.141.1,317,0.07,>=3.10
@@ -178,7 +178,7 @@ date,repo,category,stars,forks,watchers,open_issues,size_kb,days_since_push,lang
 2026-08-31,fastapi/fastapi,web-backend,101976,9837,768,80,55341,5,Python,MIT,0.141.1,33,0.141.1,317,0.07,>=3.10
 2026-09-01,fastapi/fastapi,web-backend,102003,9836,770,84,56520,0,Python,MIT,0.141.1,34,0.141.1,317,0.07,>=3.10
 2026-09-02,fastapi/fastapi,web-backend,102032,9837,770,81,55416,0,Python,MIT,0.141.1,35,0.141.1,317,0.07,>=3.10
-2026-09-03,fastapi/fastapi,web-backend,102054,9842,770,81,55416,1,Python,MIT,0.141.1,35,0.141.1,317,0.07,>=3.10
+2026-09-03,fastapi/fastapi,web-backend,102061,9845,770,81,55416,1,Python,MIT,0.141.1,36,0.141.1,317,0.07,>=3.10
 2026-08-23,gradio-app/gradio,visualisation,43407,3579,196,174,358370,1,Python,Apache-2.0,gradio@6.25.0,3,6.25.0,674,5.81,>=3.10
 2026-08-24,gradio-app/gradio,visualisation,43413,3579,196,169,358892,0,Python,Apache-2.0,gradio@6.25.0,4,6.25.0,674,5.81,>=3.10
 2026-08-25,gradio-app/gradio,visualisation,43418,3581,196,168,358502,0,Python,Apache-2.0,gradio@6.26.0,0,6.26.0,675,5.81,>=3.10
@@ -190,7 +190,7 @@ date,repo,category,stars,forks,watchers,open_issues,size_kb,days_since_push,lang
 2026-08-31,gradio-app/gradio,visualisation,43443,3581,198,160,358949,0,Python,Apache-2.0,gradio@6.26.0,7,6.26.0,675,5.81,>=3.10
 2026-09-01,gradio-app/gradio,visualisation,43450,3583,201,157,359431,0,Python,Apache-2.0,gradio@6.26.0,7,6.26.0,675,5.81,>=3.10
 2026-09-02,gradio-app/gradio,visualisation,43452,3583,201,157,359162,0,Python,Apache-2.0,gradio@6.26.0,8,6.26.0,675,5.81,>=3.10
-2026-09-03,gradio-app/gradio,visualisation,43459,3585,201,156,359549,0,Python,Apache-2.0,gradio@6.26.0,9,6.26.0,675,5.81,>=3.10
+2026-09-03,gradio-app/gradio,visualisation,43463,3582,201,156,359578,0,Python,Apache-2.0,gradio@6.26.0,9,6.26.0,675,5.81,>=3.10
 2026-08-23,grafana/grafana,platform,76363,14619,1318,3338,1932621,0,TypeScript,AGPL-3.0,v13.2.0,5,,,,
 2026-08-24,grafana/grafana,platform,76391,14626,1318,3314,1934938,0,TypeScript,AGPL-3.0,v13.2.0,6,,,,
 2026-08-25,grafana/grafana,platform,76414,14636,1317,3311,1941569,0,TypeScript,AGPL-3.0,v13.2.0,7,,,,
@@ -202,7 +202,7 @@ date,repo,category,stars,forks,watchers,open_issues,size_kb,days_since_push,lang
 2026-08-31,grafana/grafana,platform,76535,14675,1321,3327,1925286,0,TypeScript,AGPL-3.0,v13.2.0,13,,,,
 2026-09-01,grafana/grafana,platform,76545,14679,1323,3332,1925458,0,TypeScript,AGPL-3.0,v13.2.0,14,,,,
 2026-09-02,grafana/grafana,platform,76565,14686,1323,3340,1926991,0,TypeScript,AGPL-3.0,v13.2.1,0,,,,
-2026-09-03,grafana/grafana,platform,76562,14691,1321,3352,1927243,0,TypeScript,AGPL-3.0,v13.2.1,1,,,,
+2026-09-03,grafana/grafana,platform,76564,14694,1320,3362,1927585,0,TypeScript,AGPL-3.0,v13.2.1,1,,,,
 2026-08-23,hashicorp/terraform,platform,49515,10610,1181,1915,357880,2,Go,NOASSERTION,v1.15.9,4,,,,
 2026-08-24,hashicorp/terraform,platform,49526,10611,1181,1914,357963,0,Go,NOASSERTION,v1.15.9,5,,,,
 2026-08-25,hashicorp/terraform,platform,49544,10615,1182,1913,358193,0,Go,NOASSERTION,v1.15.9,6,,,,
@@ -214,7 +214,7 @@ date,repo,category,stars,forks,watchers,open_issues,size_kb,days_since_push,lang
 2026-08-31,hashicorp/terraform,platform,49593,10616,1183,1916,358220,0,Go,NOASSERTION,v1.16.0,5,,,,
 2026-09-01,hashicorp/terraform,platform,49598,10616,1187,1917,358269,0,Go,NOASSERTION,v1.16.0,6,,,,
 2026-09-02,hashicorp/terraform,platform,49608,10617,1186,1913,358448,0,Go,NOASSERTION,v1.16.1,0,,,,
-2026-09-03,hashicorp/terraform,platform,49612,10622,1184,1916,358478,0,Go,NOASSERTION,v1.16.1,0,,,,
+2026-09-03,hashicorp/terraform,platform,49611,10622,1184,1916,358543,0,Go,NOASSERTION,v1.16.1,1,,,,
 2026-08-23,huggingface/transformers,machine-learning,164365,34334,1226,2406,504343,0,Python,Apache-2.0,v5.15.1,4,5.15.1,239,4.41,>=3.10.0
 2026-08-24,huggingface/transformers,machine-learning,164396,34339,1226,2396,505054,0,Python,Apache-2.0,v5.15.1,5,5.15.1,239,4.41,>=3.10.0
 2026-08-25,huggingface/transformers,machine-learning,164432,34361,1228,2405,505723,0,Python,Apache-2.0,v5.15.1,6,5.15.1,239,4.41,>=3.10.0
@@ -226,7 +226,7 @@ date,repo,category,stars,forks,watchers,open_issues,size_kb,days_since_push,lang
 2026-08-31,huggingface/transformers,machine-learning,164673,34409,1229,2404,509030,0,Python,Apache-2.0,v5.16.1,5,5.16.1,241,7.04,>=3.10.0
 2026-09-01,huggingface/transformers,machine-learning,164702,34417,1233,2392,508885,0,Python,Apache-2.0,v5.16.1,6,5.16.1,241,7.04,>=3.10.0
 2026-09-02,huggingface/transformers,machine-learning,164729,34425,1234,2394,509454,0,Python,Apache-2.0,v5.16.1,7,5.16.1,241,7.04,>=3.10.0
-2026-09-03,huggingface/transformers,machine-learning,164741,34432,1232,2394,509896,0,Python,Apache-2.0,v5.16.1,7,5.16.1,241,7.04,>=3.10.0
+2026-09-03,huggingface/transformers,machine-learning,164748,34436,1232,2388,509823,0,Python,Apache-2.0,v5.16.1,8,5.16.1,241,7.04,>=3.10.0
 2026-08-23,ibis-project/ibis,data-engineering,6639,753,86,524,195052,1,Python,Apache-2.0,12.0.0,197,12.0.0,166,7.0,>=3.10
 2026-08-24,ibis-project/ibis,data-engineering,6641,754,86,525,195052,2,Python,Apache-2.0,12.0.0,198,12.0.0,166,7.0,>=3.10
 2026-08-25,ibis-project/ibis,data-engineering,6641,755,86,528,195052,0,Python,Apache-2.0,12.0.0,199,12.0.0,166,7.0,>=3.10
@@ -238,7 +238,7 @@ date,repo,category,stars,forks,watchers,open_issues,size_kb,days_since_push,lang
 2026-08-31,ibis-project/ibis,data-engineering,6650,757,87,531,195060,0,Python,Apache-2.0,12.0.0,205,12.0.0,166,7.0,>=3.10
 2026-09-01,ibis-project/ibis,data-engineering,6649,758,87,529,195061,0,Python,Apache-2.0,12.0.0,206,12.0.0,166,7.0,>=3.10
 2026-09-02,ibis-project/ibis,data-engineering,6650,760,87,530,195061,1,Python,Apache-2.0,12.0.0,207,12.0.0,166,7.0,>=3.10
-2026-09-03,ibis-project/ibis,data-engineering,6653,761,87,530,195057,0,Python,Apache-2.0,12.0.0,207,12.0.0,166,7.0,>=3.10
+2026-09-03,ibis-project/ibis,data-engineering,6652,760,87,530,195057,0,Python,Apache-2.0,12.0.0,208,12.0.0,166,7.0,>=3.10
 2026-08-23,kubernetes/kubernetes,platform,124924,43905,3258,3010,1510888,2,Go,Apache-2.0,v1.36.4,3,,,,
 2026-08-24,kubernetes/kubernetes,platform,124966,43913,3258,3027,1510888,3,Go,Apache-2.0,v1.36.4,4,,,,
 2026-08-25,kubernetes/kubernetes,platform,125181,43915,3260,3047,1510932,0,Go,Apache-2.0,v1.36.4,5,,,,
@@ -250,7 +250,7 @@ date,repo,category,stars,forks,watchers,open_issues,size_kb,days_since_push,lang
 2026-08-31,kubernetes/kubernetes,platform,125616,43973,3263,3012,1513690,0,Go,Apache-2.0,v1.37.0,5,,,,
 2026-09-01,kubernetes/kubernetes,platform,125919,43975,3265,3014,1514135,0,Go,Apache-2.0,v1.37.0,6,,,,
 2026-09-02,kubernetes/kubernetes,platform,125947,43985,3265,3026,1514649,0,Go,Apache-2.0,v1.37.0,7,,,,
-2026-09-03,kubernetes/kubernetes,platform,126310,43990,3264,3028,1514843,0,Go,Apache-2.0,v1.37.0,7,,,,
+2026-09-03,kubernetes/kubernetes,platform,126320,43992,3264,3024,1515001,0,Go,Apache-2.0,v1.37.0,8,,,,
 2026-08-23,matplotlib/matplotlib,visualisation,23103,8450,580,1471,490225,0,Python,,v3.11.1,36,3.11.1,142,36.05,>=3.11
 2026-08-24,matplotlib/matplotlib,visualisation,23104,8453,580,1473,490225,1,Python,,v3.11.1,37,3.11.1,142,36.05,>=3.11
 2026-08-25,matplotlib/matplotlib,visualisation,23105,8452,580,1473,490040,0,Python,,v3.11.1,38,3.11.1,142,36.05,>=3.11
@@ -262,7 +262,7 @@ date,repo,category,stars,forks,watchers,open_issues,size_kb,days_since_push,lang
 2026-08-31,matplotlib/matplotlib,visualisation,23131,8466,579,1472,491025,0,Python,,v3.11.1,44,3.11.1,142,36.05,>=3.11
 2026-09-01,matplotlib/matplotlib,visualisation,23134,8466,580,1472,491018,0,Python,,v3.11.1,45,3.11.1,142,36.05,>=3.11
 2026-09-02,matplotlib/matplotlib,visualisation,23139,8467,580,1473,491023,1,Python,,v3.11.1,46,3.11.1,142,36.05,>=3.11
-2026-09-03,matplotlib/matplotlib,visualisation,23144,8468,581,1473,491023,1,Python,,v3.11.1,47,3.11.1,142,36.05,>=3.11
+2026-09-03,matplotlib/matplotlib,visualisation,23144,8469,581,1471,491072,0,Python,,v3.11.1,47,3.11.1,142,36.05,>=3.11
 2026-08-23,microsoft/LightGBM,machine-learning,18708,4055,417,510,25485,0,C++,MIT,v4.7.0,35,4.7.0,38,101.11,>=3.10
 2026-08-24,microsoft/LightGBM,machine-learning,18710,4055,417,512,25514,0,C++,MIT,v4.7.0,36,4.7.0,38,101.11,>=3.10
 2026-08-25,microsoft/LightGBM,machine-learning,18711,4055,417,513,25515,0,C++,MIT,v4.7.0,37,4.7.0,38,101.11,>=3.10
@@ -274,7 +274,7 @@ date,repo,category,stars,forks,watchers,open_issues,size_kb,days_since_push,lang
 2026-08-31,microsoft/LightGBM,machine-learning,18734,4060,417,515,26397,0,C++,MIT,v4.7.0,44,4.7.0,38,101.11,>=3.10
 2026-09-01,microsoft/LightGBM,machine-learning,18734,4061,420,514,26401,0,C++,MIT,v4.7.0,44,4.7.0,38,101.11,>=3.10
 2026-09-02,microsoft/LightGBM,machine-learning,18735,4062,420,512,25524,0,C++,MIT,v4.7.0,45,4.7.0,38,101.11,>=3.10
-2026-09-03,microsoft/LightGBM,machine-learning,18742,4063,420,511,25589,0,C++,MIT,v4.7.0,46,4.7.0,38,101.11,>=3.10
+2026-09-03,microsoft/LightGBM,machine-learning,18741,4062,420,511,25589,0,C++,MIT,v4.7.0,46,4.7.0,38,101.11,>=3.10
 2026-08-23,mlflow/mlflow,machine-learning,27630,6205,320,2068,1476997,0,Python,Apache-2.0,v3.15.1,20,3.15.1,184,9.76,>=3.10
 2026-08-24,mlflow/mlflow,machine-learning,27654,6212,320,2083,1476831,0,Python,Apache-2.0,v3.15.1,21,3.15.1,184,9.76,>=3.10
 2026-08-25,mlflow/mlflow,machine-learning,27675,6220,320,2073,1477412,0,Python,Apache-2.0,v3.15.1,22,3.15.1,184,9.76,>=3.10
@@ -286,7 +286,7 @@ date,repo,category,stars,forks,watchers,open_issues,size_kb,days_since_push,lang
 2026-08-31,mlflow/mlflow,machine-learning,27760,6236,322,2053,1478791,0,Python,Apache-2.0,v3.15.2,5,3.15.2,185,10.11,>=3.10
 2026-09-01,mlflow/mlflow,machine-learning,27768,6244,325,2052,1479052,0,Python,Apache-2.0,v3.15.2,6,3.15.2,185,10.11,>=3.10
 2026-09-02,mlflow/mlflow,machine-learning,27781,6249,325,2050,1480222,0,Python,Apache-2.0,v3.15.2,7,3.15.2,185,10.11,>=3.10
-2026-09-03,mlflow/mlflow,machine-learning,27795,6250,325,2060,1480207,0,Python,Apache-2.0,v3.15.2,8,3.15.2,185,10.11,>=3.10
+2026-09-03,mlflow/mlflow,machine-learning,27795,6250,325,2065,1480246,0,Python,Apache-2.0,v3.15.2,8,3.15.2,185,10.11,>=3.10
 2026-08-23,open-telemetry/opentelemetry-collector,platform,7443,2213,89,707,73093,1,Go,Apache-2.0,v0.159.0,6,,,,
 2026-08-24,open-telemetry/opentelemetry-collector,platform,7448,2215,89,704,73023,0,Go,Apache-2.0,v0.159.0,7,,,,
 2026-08-25,open-telemetry/opentelemetry-collector,platform,7450,2217,90,699,73249,0,Go,Apache-2.0,v0.159.0,8,,,,
@@ -298,7 +298,7 @@ date,repo,category,stars,forks,watchers,open_issues,size_kb,days_since_push,lang
 2026-08-31,open-telemetry/opentelemetry-collector,platform,7475,2224,90,703,73357,0,Go,Apache-2.0,v0.159.0,14,,,,
 2026-09-01,open-telemetry/opentelemetry-collector,platform,7477,2224,90,711,73432,0,Go,Apache-2.0,v0.159.0,15,,,,
 2026-09-02,open-telemetry/opentelemetry-collector,platform,7486,2226,91,706,73677,0,Go,Apache-2.0,v0.160.0,0,,,,
-2026-09-03,open-telemetry/opentelemetry-collector,platform,7491,2226,91,695,73736,0,Go,Apache-2.0,v0.160.0,0,,,,
+2026-09-03,open-telemetry/opentelemetry-collector,platform,7491,2227,91,693,73664,0,Go,Apache-2.0,v0.160.0,1,,,,
 2026-08-23,optuna/optuna,machine-learning,14689,1378,122,16,23664,2,Python,MIT,v4.9.0,83,4.9.0,78,63.0,>=3.9
 2026-08-24,optuna/optuna,machine-learning,14698,1380,122,16,23664,3,Python,MIT,v4.9.0,84,4.9.0,78,63.0,>=3.9
 2026-08-25,optuna/optuna,machine-learning,14707,1381,122,18,23664,4,Python,MIT,v4.9.0,85,4.9.0,78,63.0,>=3.9
@@ -310,7 +310,7 @@ date,repo,category,stars,forks,watchers,open_issues,size_kb,days_since_push,lang
 2026-08-31,optuna/optuna,machine-learning,14733,1384,122,17,23338,0,Python,MIT,v4.9.0,91,4.9.0,78,63.0,>=3.9
 2026-09-01,optuna/optuna,machine-learning,14734,1383,123,18,23338,1,Python,MIT,v4.9.0,92,4.9.0,78,63.0,>=3.9
 2026-09-02,optuna/optuna,machine-learning,14738,1383,123,17,23385,0,Python,MIT,v4.9.0,93,4.9.0,78,63.0,>=3.9
-2026-09-03,optuna/optuna,machine-learning,14742,1383,123,17,23385,1,Python,MIT,v4.9.0,94,4.9.0,78,63.0,>=3.9
+2026-09-03,optuna/optuna,machine-learning,14742,1383,123,18,23385,1,Python,MIT,v4.9.0,94,4.9.0,78,63.0,>=3.9
 2026-08-23,pallets/flask,web-backend,72143,16945,2105,3,12368,6,Python,BSD-3-Clause,3.1.3,185,3.1.3,64,110.23,>=3.9
 2026-08-24,pallets/flask,web-backend,72148,16947,2105,3,12368,7,Python,BSD-3-Clause,3.1.3,186,3.1.3,64,110.23,>=3.9
 2026-08-25,pallets/flask,web-backend,72143,16947,2105,3,12368,8,Python,BSD-3-Clause,3.1.3,187,3.1.3,64,110.23,>=3.9
@@ -322,7 +322,7 @@ date,repo,category,stars,forks,watchers,open_issues,size_kb,days_since_push,lang
 2026-08-31,pallets/flask,web-backend,72163,16952,2107,4,12368,15,Python,BSD-3-Clause,3.1.3,193,3.1.3,64,110.23,>=3.9
 2026-09-01,pallets/flask,web-backend,72168,16954,2109,4,12368,16,Python,BSD-3-Clause,3.1.3,194,3.1.3,64,110.23,>=3.9
 2026-09-02,pallets/flask,web-backend,72170,16956,2109,4,12368,17,Python,BSD-3-Clause,3.1.3,195,3.1.3,64,110.23,>=3.9
-2026-09-03,pallets/flask,web-backend,72162,16958,2109,4,12368,17,Python,BSD-3-Clause,3.1.3,196,3.1.3,64,110.23,>=3.9
+2026-09-03,pallets/flask,web-backend,72164,16959,2110,4,12368,18,Python,BSD-3-Clause,3.1.3,196,3.1.3,64,110.23,>=3.9
 2026-08-23,pandas-dev/pandas,data-engineering,49551,20285,1128,2782,408721,0,Python,BSD-3-Clause,v3.0.5,31,3.0.5,117,27.27,>=3.11
 2026-08-24,pandas-dev/pandas,data-engineering,49558,20288,1128,2773,408165,0,Python,BSD-3-Clause,v3.0.5,32,3.0.5,117,27.27,>=3.11
 2026-08-25,pandas-dev/pandas,data-engineering,49559,20287,1128,2773,408352,0,Python,BSD-3-Clause,v3.0.5,33,3.0.5,117,27.27,>=3.11
@@ -334,7 +334,7 @@ date,repo,category,stars,forks,watchers,open_issues,size_kb,days_since_push,lang
 2026-08-31,pandas-dev/pandas,data-engineering,49613,20311,1130,2716,408873,0,Python,BSD-3-Clause,v3.0.5,40,3.0.5,117,27.27,>=3.11
 2026-09-01,pandas-dev/pandas,data-engineering,49618,20315,1134,2718,410846,0,Python,BSD-3-Clause,v3.0.5,40,3.0.5,117,27.27,>=3.11
 2026-09-02,pandas-dev/pandas,data-engineering,49622,20321,1134,2709,410718,0,Python,BSD-3-Clause,v3.0.5,41,3.0.5,117,27.27,>=3.11
-2026-09-03,pandas-dev/pandas,data-engineering,49629,20321,1134,2714,411102,0,Python,BSD-3-Clause,v3.0.5,42,3.0.5,117,27.27,>=3.11
+2026-09-03,pandas-dev/pandas,data-engineering,49629,20319,1134,2701,411425,0,Python,BSD-3-Clause,v3.0.5,42,3.0.5,117,27.27,>=3.11
 2026-08-23,plotly/plotly.py,visualisation,18751,2835,270,780,413474,1,Python,MIT,v6.9.0,45,6.9.0,319,35.85,>=3.8
 2026-08-24,plotly/plotly.py,visualisation,18753,2837,270,779,413533,0,Python,MIT,v6.9.0,46,6.9.0,319,35.85,>=3.8
 2026-08-25,plotly/plotly.py,visualisation,18753,2836,270,778,418521,0,Python,MIT,v7.0.0,0,7.0.0,320,35.85,>=3.8
@@ -346,7 +346,7 @@ date,repo,category,stars,forks,watchers,open_issues,size_kb,days_since_push,lang
 2026-08-31,plotly/plotly.py,visualisation,18763,2838,271,734,418858,0,Python,MIT,v7.0.0,6,7.0.0,320,35.85,>=3.8
 2026-09-01,plotly/plotly.py,visualisation,18762,2838,274,725,416418,0,Python,MIT,v7.0.0,7,7.0.0,320,35.85,>=3.8
 2026-09-02,plotly/plotly.py,visualisation,18763,2838,274,703,416418,1,Python,MIT,v7.0.0,8,7.0.0,320,35.85,>=3.8
-2026-09-03,plotly/plotly.py,visualisation,18760,2837,274,702,416490,0,Python,MIT,v7.0.0,8,7.0.0,320,35.85,>=3.8
+2026-09-03,plotly/plotly.py,visualisation,18760,2837,274,704,416492,0,Python,MIT,v7.0.0,9,7.0.0,320,35.85,>=3.8
 2026-08-23,pola-rs/polars,data-engineering,39458,3040,216,2856,210356,0,Rust,MIT,rs-0.55.2,17,1.43.2,429,5.98,>=3.10
 2026-08-24,pola-rs/polars,data-engineering,39473,3045,216,2868,210929,0,Rust,MIT,py-1.44.0,0,1.44.0,430,6.32,>=3.10
 2026-08-25,pola-rs/polars,data-engineering,39483,3050,216,2857,211405,0,Rust,MIT,py-1.44.0,1,1.44.0,430,6.32,>=3.10
@@ -358,7 +358,7 @@ date,repo,category,stars,forks,watchers,open_issues,size_kb,days_since_push,lang
 2026-08-31,pola-rs/polars,data-engineering,39574,3071,218,2868,210265,0,Rust,MIT,py-1.44.1,5,1.44.1,431,5.98,>=3.10
 2026-09-01,pola-rs/polars,data-engineering,39582,3074,221,2857,211538,0,Rust,MIT,py-1.44.1,6,1.44.1,431,5.98,>=3.10
 2026-09-02,pola-rs/polars,data-engineering,39589,3078,221,2867,213924,0,Rust,MIT,py-1.44.1,7,1.44.1,432,6.32,>=3.10
-2026-09-03,pola-rs/polars,data-engineering,39628,3080,221,2879,215444,0,Rust,MIT,py-1.44.1,8,1.44.1,432,6.32,>=3.10
+2026-09-03,pola-rs/polars,data-engineering,39635,3079,221,2871,215475,0,Rust,MIT,py-1.44.1,8,1.44.1,432,6.32,>=3.10
 2026-08-23,postgres/postgres,database,21878,5867,573,0,775496,0,C,NOASSERTION,,,,,,
 2026-08-24,postgres/postgres,database,21884,5873,573,0,774131,0,C,NOASSERTION,,,,,,
 2026-08-25,postgres/postgres,database,21893,5873,573,0,774825,0,C,NOASSERTION,,,,,,
@@ -370,7 +370,7 @@ date,repo,category,stars,forks,watchers,open_issues,size_kb,days_since_push,lang
 2026-08-31,postgres/postgres,database,21969,5881,574,0,776966,0,C,NOASSERTION,,,,,,
 2026-09-01,postgres/postgres,database,21979,5885,575,0,777795,0,C,NOASSERTION,,,,,,
 2026-09-02,postgres/postgres,database,21987,5888,575,0,779055,0,C,NOASSERTION,,,,,,
-2026-09-03,postgres/postgres,database,21989,5888,575,0,779262,0,C,NOASSERTION,,,,,,
+2026-09-03,postgres/postgres,database,21990,5888,575,0,779262,0,C,NOASSERTION,,,,,,
 2026-08-23,prometheus/prometheus,platform,65785,10785,1161,922,288100,0,Go,Apache-2.0,v3.14.0,5,,,,
 2026-08-24,prometheus/prometheus,platform,65801,10790,1161,919,288915,0,Go,Apache-2.0,v3.14.0,6,,,,
 2026-08-25,prometheus/prometheus,platform,65816,10796,1161,904,288325,0,Go,Apache-2.0,v3.14.0,7,,,,
@@ -382,7 +382,7 @@ date,repo,category,stars,forks,watchers,open_issues,size_kb,days_since_push,lang
 2026-08-31,prometheus/prometheus,platform,65926,10810,1161,882,288847,0,Go,Apache-2.0,v3.14.0,13,,,,
 2026-09-01,prometheus/prometheus,platform,65931,10812,1164,883,288743,0,Go,Apache-2.0,v3.14.0,14,,,,
 2026-09-02,prometheus/prometheus,platform,65944,10816,1164,888,289009,0,Go,Apache-2.0,v3.14.0,15,,,,
-2026-09-03,prometheus/prometheus,platform,65933,10817,1163,888,289009,0,Go,Apache-2.0,v3.14.0,16,,,,
+2026-09-03,prometheus/prometheus,platform,65935,10818,1163,888,289005,0,Go,Apache-2.0,v3.14.0,16,,,,
 2026-08-23,pydantic/pydantic,web-backend,28596,2889,159,582,437264,2,Python,MIT,v2.13.4,109,2.13.4,204,13.17,>=3.9
 2026-08-24,pydantic/pydantic,web-backend,28607,2893,160,576,436840,0,Python,MIT,v2.13.4,110,2.13.4,204,13.17,>=3.9
 2026-08-25,pydantic/pydantic,web-backend,28613,2898,160,578,437128,0,Python,MIT,v2.13.4,111,2.13.4,204,13.17,>=3.9
@@ -394,7 +394,7 @@ date,repo,category,stars,forks,watchers,open_issues,size_kb,days_since_push,lang
 2026-08-31,pydantic/pydantic,web-backend,28672,2908,162,573,440923,0,Python,MIT,v2.13.5,3,2.13.5,205,15.96,>=3.9
 2026-09-01,pydantic/pydantic,web-backend,28681,2908,165,572,440937,0,Python,MIT,v2.13.5,4,2.13.5,205,15.96,>=3.9
 2026-09-02,pydantic/pydantic,web-backend,28693,2914,165,575,440691,0,Python,MIT,v2.13.5,5,2.13.5,205,15.96,>=3.9
-2026-09-03,pydantic/pydantic,web-backend,28701,2915,165,576,441240,0,Python,MIT,v2.13.5,5,2.13.5,205,15.96,>=3.9
+2026-09-03,pydantic/pydantic,web-backend,28707,2916,165,576,441243,0,Python,MIT,v2.13.5,6,2.13.5,205,15.96,>=3.9
 2026-08-23,pytorch/pytorch,machine-learning,102556,28962,1805,17302,1497605,0,Python,NOASSERTION,v2.13.0,46,2.13.0,49,42.13,>=3.10
 2026-08-24,pytorch/pytorch,machine-learning,102576,28969,1805,17303,1495727,0,Python,NOASSERTION,v2.13.0,47,2.13.0,49,42.13,>=3.10
 2026-08-25,pytorch/pytorch,machine-learning,102587,28978,1804,17331,1501587,0,Python,NOASSERTION,v2.13.0,48,2.13.0,49,42.13,>=3.10
@@ -406,7 +406,7 @@ date,repo,category,stars,forks,watchers,open_issues,size_kb,days_since_push,lang
 2026-08-31,pytorch/pytorch,machine-learning,102697,29059,1805,17490,1520687,0,Python,NOASSERTION,v2.13.0,54,2.13.0,49,42.13,>=3.10
 2026-09-01,pytorch/pytorch,machine-learning,102705,29074,1807,17535,1526103,0,Python,NOASSERTION,v2.13.0,55,2.13.0,49,42.13,>=3.10
 2026-09-02,pytorch/pytorch,machine-learning,102726,29090,1806,17525,1529391,0,Python,NOASSERTION,v2.14.0,0,2.14.0,50,50.86,>=3.10
-2026-09-03,pytorch/pytorch,machine-learning,102738,29096,1806,17546,1533235,0,Python,NOASSERTION,v2.14.0,0,2.14.0,50,50.86,>=3.10
+2026-09-03,pytorch/pytorch,machine-learning,102739,29100,1806,17510,1539704,0,Python,NOASSERTION,v2.14.0,1,2.14.0,50,50.86,>=3.10
 2026-08-23,questdb/questdb,database,17271,1639,134,920,1979991,0,Java,Apache-2.0,10.0.0,17,,,,
 2026-08-24,questdb/questdb,database,17275,1640,134,930,1980457,0,Java,Apache-2.0,10.0.1,0,,,,
 2026-08-25,questdb/questdb,database,17279,1639,134,937,1985399,0,Java,Apache-2.0,10.0.1,1,,,,
@@ -418,7 +418,7 @@ date,repo,category,stars,forks,watchers,open_issues,size_kb,days_since_push,lang
 2026-08-31,questdb/questdb,database,17294,1642,135,943,1981978,0,Java,Apache-2.0,10.0.1,7,,,,
 2026-09-01,questdb/questdb,database,17294,1644,138,945,1982455,0,Java,Apache-2.0,10.0.1,8,,,,
 2026-09-02,questdb/questdb,database,17295,1645,138,948,1985843,0,Java,Apache-2.0,10.0.1,9,,,,
-2026-09-03,questdb/questdb,database,17296,1645,138,949,1992379,0,Java,Apache-2.0,10.0.1,9,,,,
+2026-09-03,questdb/questdb,database,17297,1646,138,949,1989314,0,Java,Apache-2.0,10.0.1,10,,,,
 2026-08-23,ray-project/ray,machine-learning,43583,7955,479,3517,784918,0,Python,Apache-2.0,ray-2.58.0,0,2.58.0,132,21.65,>=3.10
 2026-08-24,ray-project/ray,machine-learning,43599,7961,479,3525,786006,0,Python,Apache-2.0,ray-2.58.0,1,2.58.0,132,21.65,>=3.10
 2026-08-25,ray-project/ray,machine-learning,43609,7965,479,3531,786296,0,Python,Apache-2.0,ray-2.58.0,2,2.58.0,132,21.65,>=3.10
@@ -430,7 +430,7 @@ date,repo,category,stars,forks,watchers,open_issues,size_kb,days_since_push,lang
 2026-08-31,ray-project/ray,machine-learning,43669,7982,481,3548,786989,0,Python,Apache-2.0,ray-2.58.0,8,2.58.0,132,21.65,>=3.10
 2026-09-01,ray-project/ray,machine-learning,43680,7987,484,3554,787781,0,Python,Apache-2.0,ray-2.58.0,9,2.58.0,132,21.65,>=3.10
 2026-09-02,ray-project/ray,machine-learning,43687,7995,485,3540,790689,0,Python,Apache-2.0,ray-2.58.0,10,2.58.0,132,21.65,>=3.10
-2026-09-03,ray-project/ray,machine-learning,43692,7999,485,3548,790248,0,Python,Apache-2.0,ray-2.58.0,11,2.58.0,132,21.65,>=3.10
+2026-09-03,ray-project/ray,machine-learning,43695,7998,485,3555,791312,0,Python,Apache-2.0,ray-2.58.0,11,2.58.0,132,21.65,>=3.10
 2026-08-23,redis/redis,database,76086,24760,2481,2907,215643,0,C,NOASSERTION,8.10.1,6,,,,
 2026-08-24,redis/redis,database,76096,24761,2480,2912,215650,0,C,NOASSERTION,8.10.1,7,,,,
 2026-08-25,redis/redis,database,76110,24765,2481,2919,215743,0,C,NOASSERTION,8.10.1,8,,,,
@@ -442,7 +442,7 @@ date,repo,category,stars,forks,watchers,open_issues,size_kb,days_since_push,lang
 2026-08-31,redis/redis,database,76164,24768,2482,2925,215700,0,C,NOASSERTION,8.10.1,14,,,,
 2026-09-01,redis/redis,database,76170,24772,2484,2929,215571,0,C,NOASSERTION,8.10.1,15,,,,
 2026-09-02,redis/redis,database,76179,24775,2484,2933,215574,0,C,NOASSERTION,8.10.1,16,,,,
-2026-09-03,redis/redis,database,76182,24774,2484,2935,215574,0,C,NOASSERTION,8.10.1,16,,,,
+2026-09-03,redis/redis,database,76184,24774,2484,2932,215574,1,C,NOASSERTION,8.10.1,17,,,,
 2026-08-23,scikit-learn/scikit-learn,machine-learning,67030,27303,2124,2125,186995,2,Python,BSD-3-Clause,1.9.0,82,1.9.0,75,42.42,>=3.11
 2026-08-24,scikit-learn/scikit-learn,machine-learning,67054,27308,2124,2126,186706,0,Python,BSD-3-Clause,1.9.0,83,1.9.0,75,42.42,>=3.11
 2026-08-25,scikit-learn/scikit-learn,machine-learning,67062,27312,2124,2123,186780,0,Python,BSD-3-Clause,1.9.0,84,1.9.0,75,42.42,>=3.11
@@ -454,7 +454,7 @@ date,repo,category,stars,forks,watchers,open_issues,size_kb,days_since_push,lang
 2026-08-31,scikit-learn/scikit-learn,machine-learning,67115,27340,2125,2141,186953,0,Python,BSD-3-Clause,1.9.0,90,1.9.0,75,42.42,>=3.11
 2026-09-01,scikit-learn/scikit-learn,machine-learning,67123,27342,2128,2145,186954,0,Python,BSD-3-Clause,1.9.0,91,1.9.0,75,42.42,>=3.11
 2026-09-02,scikit-learn/scikit-learn,machine-learning,67138,27345,2128,2148,186954,1,Python,BSD-3-Clause,1.9.0,92,1.9.0,75,42.42,>=3.11
-2026-09-03,scikit-learn/scikit-learn,machine-learning,67151,27353,2128,2151,186890,0,Python,BSD-3-Clause,1.9.0,93,1.9.0,75,42.42,>=3.11
+2026-09-03,scikit-learn/scikit-learn,machine-learning,67153,27353,2128,2148,186890,0,Python,BSD-3-Clause,1.9.0,93,1.9.0,75,42.42,>=3.11
 2026-08-23,streamlit/streamlit,visualisation,45598,4360,332,1188,1075287,0,Python,Apache-2.0,1.62.0,3,1.62.0,271,13.98,>=3.10
 2026-08-24,streamlit/streamlit,visualisation,45601,4361,332,1195,1076502,0,Python,Apache-2.0,1.62.0,4,1.62.0,271,13.98,>=3.10
 2026-08-25,streamlit/streamlit,visualisation,45609,4365,332,1195,1077108,0,Python,Apache-2.0,1.62.0,5,1.62.0,271,13.98,>=3.10
@@ -466,7 +466,7 @@ date,repo,category,stars,forks,watchers,open_issues,size_kb,days_since_push,lang
 2026-08-31,streamlit/streamlit,visualisation,45653,4369,333,1187,1079501,0,Python,Apache-2.0,1.62.0,12,1.62.0,271,13.98,>=3.10
 2026-09-01,streamlit/streamlit,visualisation,45658,4370,337,1194,1080357,0,Python,Apache-2.0,1.63.0,0,1.63.0,272,12.95,>=3.10
 2026-09-02,streamlit/streamlit,visualisation,45665,4372,338,1182,1080754,0,Python,Apache-2.0,1.63.0,1,1.63.0,272,12.95,>=3.10
-2026-09-03,streamlit/streamlit,visualisation,45677,4373,339,1187,1080735,0,Python,Apache-2.0,1.63.0,1,1.63.0,272,12.95,>=3.10
+2026-09-03,streamlit/streamlit,visualisation,45677,4372,339,1187,1081065,0,Python,Apache-2.0,1.63.0,2,1.63.0,272,12.95,>=3.10
 2026-08-23,timescale/timescaledb,database,23402,1139,307,394,64343,2,C,NOASSERTION,2.29.2,5,,,,
 2026-08-24,timescale/timescaledb,database,23404,1139,307,393,63993,0,C,NOASSERTION,2.29.2,6,,,,
 2026-08-25,timescale/timescaledb,database,23418,1139,307,395,64059,0,C,NOASSERTION,2.29.2,7,,,,
@@ -478,7 +478,7 @@ date,repo,category,stars,forks,watchers,open_issues,size_kb,days_since_push,lang
 2026-08-31,timescale/timescaledb,database,23452,1141,309,392,64342,0,C,NOASSERTION,2.29.2,13,,,,
 2026-09-01,timescale/timescaledb,database,23454,1141,310,394,64299,0,C,NOASSERTION,2.29.2,14,,,,
 2026-09-02,timescale/timescaledb,database,23456,1141,310,393,64677,0,C,NOASSERTION,2.29.2,15,,,,
-2026-09-03,timescale/timescaledb,database,23458,1141,310,393,64522,0,C,NOASSERTION,2.29.2,16,,,,
+2026-09-03,timescale/timescaledb,database,23460,1141,310,391,64592,0,C,NOASSERTION,2.29.2,16,,,,
 2026-08-23,unionai-oss/pandera,data-engineering,4439,435,21,444,5994,0,Python,MIT,v0.32.1,55,0.32.1,123,10.58,>=3.10
 2026-08-24,unionai-oss/pandera,data-engineering,4442,435,21,444,5994,1,Python,MIT,v0.32.1,56,0.32.1,123,10.58,>=3.10
 2026-08-25,unionai-oss/pandera,data-engineering,4442,435,21,445,5997,0,Python,MIT,v0.32.1,57,0.32.1,123,10.58,>=3.10
@@ -490,7 +490,7 @@ date,repo,category,stars,forks,watchers,open_issues,size_kb,days_since_push,lang
 2026-08-31,unionai-oss/pandera,data-engineering,4445,434,21,437,6147,0,Python,MIT,v0.33.0,1,0.33.0,124,20.52,>=3.10
 2026-09-01,unionai-oss/pandera,data-engineering,4446,435,21,435,6259,0,Python,MIT,v0.33.1,0,0.33.1,125,10.58,>=3.10
 2026-09-02,unionai-oss/pandera,data-engineering,4447,437,21,436,6055,0,Python,MIT,v0.33.1,1,0.33.1,125,10.58,>=3.10
-2026-09-03,unionai-oss/pandera,data-engineering,4448,437,21,436,6055,1,Python,MIT,v0.33.1,1,0.33.1,125,10.58,>=3.10
+2026-09-03,unionai-oss/pandera,data-engineering,4447,436,21,436,6055,1,Python,MIT,v0.33.1,2,0.33.1,125,10.58,>=3.10
 2026-08-23,valkey-io/valkey,database,26951,1297,128,878,229404,0,C,BSD-3-Clause,9.1.1,32,,,,
 2026-08-24,valkey-io/valkey,database,26964,1298,128,878,230036,0,C,BSD-3-Clause,9.1.1,33,,,,
 2026-08-25,valkey-io/valkey,database,26980,1298,129,880,231632,0,C,BSD-3-Clause,9.1.1,34,,,,
@@ -502,4 +502,4 @@ date,repo,category,stars,forks,watchers,open_issues,size_kb,days_since_push,lang
 2026-08-31,valkey-io/valkey,database,27067,1305,134,897,235795,0,C,BSD-3-Clause,9.1.1,40,,,,
 2026-09-01,valkey-io/valkey,database,27094,1305,137,884,236714,0,C,BSD-3-Clause,9.1.2,0,,,,
 2026-09-02,valkey-io/valkey,database,27111,1306,137,884,237533,0,C,BSD-3-Clause,9.1.2,1,,,,
-2026-09-03,valkey-io/valkey,database,27120,1306,137,885,234429,0,C,BSD-3-Clause,9.1.2,2,,,,
+2026-09-03,valkey-io/valkey,database,27124,1305,137,884,234439,0,C,BSD-3-Clause,9.1.2,2,,,,
