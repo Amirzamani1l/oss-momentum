@@ -138,7 +138,7 @@ not fail a run whose data has already merged.
 
 ## Ecosystem Radar
 
-_Last run: **2026-09-27 06:35 UTC** · 42 projects · 1,386 observations · 33 days of history (2026-08-23 → 2026-09-27)_
+_Last run: **2026-09-27 14:49 UTC** · 42 projects · 1,386 observations · 33 days of history (2026-08-23 → 2026-09-27)_
 
 ![Category momentum](charts/categories.svg)
 
@@ -146,37 +146,37 @@ _Last run: **2026-09-27 06:35 UTC** · 42 projects · 1,386 observations · 33 d
 
 | Project | Category | Stars | 30d | Growth | Momentum |
 | --- | --- | ---: | ---: | ---: | ---: |
-| [pallets/flask](https://github.com/pallets/flask) | Web & backend | 74,788 | +2,644 | 3.66% | 3.95 |
-| [django/django](https://github.com/django/django) | Web & backend | 91,204 | +2,176 | 2.44% | 2.19 |
-| [duckdb/duckdb](https://github.com/duckdb/duckdb) | Data engineering | 41,725 | +952 | 2.33% | 2.03 |
-| [kubernetes/kubernetes](https://github.com/kubernetes/kubernetes) | Platform & DevOps | 128,039 | +2,718 | 2.17% | 1.80 |
-| [open-telemetry/opentelemetry-collector](https://github.com/open-telemetry/opentelemetry-collector) | Platform & DevOps | 7,602 | +135 | 1.81% | 1.28 |
-| [dbt-labs/dbt-core](https://github.com/dbt-labs/dbt-core) | Data engineering | 13,934 | +225 | 1.64% | 1.03 |
-| [mlflow/mlflow](https://github.com/mlflow/mlflow) | Machine learning | 28,147 | +434 | 1.57% | 0.93 |
-| [huggingface/transformers](https://github.com/huggingface/transformers) | Machine learning | 166,707 | +2,135 | 1.30% | 0.54 |
+| [pallets/flask](https://github.com/pallets/flask) | Web & backend | 74,796 | +2,652 | 3.68% | 3.95 |
+| [django/django](https://github.com/django/django) | Web & backend | 91,209 | +2,181 | 2.45% | 2.18 |
+| [duckdb/duckdb](https://github.com/duckdb/duckdb) | Data engineering | 41,732 | +959 | 2.35% | 2.04 |
+| [kubernetes/kubernetes](https://github.com/kubernetes/kubernetes) | Platform & DevOps | 128,045 | +2,724 | 2.17% | 1.78 |
+| [open-telemetry/opentelemetry-collector](https://github.com/open-telemetry/opentelemetry-collector) | Platform & DevOps | 7,603 | +136 | 1.82% | 1.28 |
+| [dbt-labs/dbt-core](https://github.com/dbt-labs/dbt-core) | Data engineering | 13,935 | +226 | 1.65% | 1.03 |
+| [mlflow/mlflow](https://github.com/mlflow/mlflow) | Machine learning | 28,149 | +436 | 1.57% | 0.92 |
+| [postgres/postgres](https://github.com/postgres/postgres) | Databases | 22,214 | +289 | 1.32% | 0.56 |
 
 
 ### Losing momentum (30d)
 
 | Project | Category | Stars | 30d | Growth | Momentum |
 | --- | --- | ---: | ---: | ---: | ---: |
-| [altair-viz/altair](https://github.com/altair-viz/altair) | Visualisation & apps | 10,485 | +24 | 0.23% | -1.00 |
-| [plotly/plotly.py](https://github.com/plotly/plotly.py) | Visualisation & apps | 18,808 | +49 | 0.26% | -0.96 |
-| [ibis-project/ibis](https://github.com/ibis-project/ibis) | Data engineering | 6,667 | +19 | 0.29% | -0.91 |
-| [dmlc/xgboost](https://github.com/dmlc/xgboost) | Machine learning | 28,796 | +91 | 0.32% | -0.87 |
-| [questdb/questdb](https://github.com/questdb/questdb) | Databases | 17,352 | +66 | 0.38% | -0.78 |
+| [altair-viz/altair](https://github.com/altair-viz/altair) | Visualisation & apps | 10,484 | +23 | 0.22% | -1.03 |
+| [plotly/plotly.py](https://github.com/plotly/plotly.py) | Visualisation & apps | 18,807 | +48 | 0.26% | -0.97 |
+| [ibis-project/ibis](https://github.com/ibis-project/ibis) | Data engineering | 6,668 | +20 | 0.30% | -0.91 |
+| [dmlc/xgboost](https://github.com/dmlc/xgboost) | Machine learning | 28,796 | +91 | 0.32% | -0.88 |
+| [questdb/questdb](https://github.com/questdb/questdb) | Databases | 17,353 | +67 | 0.39% | -0.78 |
 
 
 ### Categories
 
 | Category | Projects | Stars | 30d | Median growth | Stale |
 | --- | ---: | ---: | ---: | ---: | ---: |
-| Web & backend | 5 | 313,040 | +5,853 | 0.80% | 1 |
-| Machine learning | 8 | 472,030 | +4,222 | 0.70% | 0 |
-| Platform & DevOps | 5 | 328,599 | +3,906 | 0.62% | 0 |
-| Data engineering | 12 | 279,079 | +2,771 | 0.80% | 0 |
-| Databases | 6 | 217,065 | +1,765 | 0.90% | 0 |
-| Visualisation & apps | 6 | 216,981 | +1,062 | 0.45% | 0 |
+| Web & backend | 5 | 313,070 | +5,883 | 0.81% | 1 |
+| Machine learning | 8 | 472,071 | +4,263 | 0.70% | 0 |
+| Platform & DevOps | 5 | 328,635 | +3,942 | 0.63% | 0 |
+| Data engineering | 12 | 279,102 | +2,794 | 0.81% | 0 |
+| Databases | 6 | 217,091 | +1,791 | 0.92% | 0 |
+| Visualisation & apps | 6 | 216,998 | +1,079 | 0.46% | 0 |
 
 
 ### Watchlist
@@ -184,13 +184,13 @@ _Last run: **2026-09-27 06:35 UTC** · 42 projects · 1,386 observations · 33 d
 | Project | Days since push | Open issues / 1k stars | Flag |
 | --- | ---: | ---: | --- |
 | [encode/httpx](https://github.com/encode/httpx) | 182 | 9.02 | stalled |
-| [redis/redis](https://github.com/redis/redis) | 2 | 39.10 | issue load |
-| [scikit-learn/scikit-learn](https://github.com/scikit-learn/scikit-learn) | 2 | 31.95 | issue load |
-| [dagster-io/dagster](https://github.com/dagster-io/dagster) | 1 | 158.47 | issue load |
-| [plotly/plotly.py](https://github.com/plotly/plotly.py) | 1 | 38.07 | issue load |
-| [matplotlib/matplotlib](https://github.com/matplotlib/matplotlib) | 1 | 64.00 | issue load |
-| [open-telemetry/opentelemetry-collector](https://github.com/open-telemetry/opentelemetry-collector) | 1 | 90.24 | issue load |
-| [delta-io/delta](https://github.com/delta-io/delta) | 1 | 108.09 | issue load |
+| [plotly/plotly.py](https://github.com/plotly/plotly.py) | 2 | 38.23 | issue load |
+| [scikit-learn/scikit-learn](https://github.com/scikit-learn/scikit-learn) | 2 | 31.94 | issue load |
+| [dagster-io/dagster](https://github.com/dagster-io/dagster) | 1 | 158.57 | issue load |
+| [hashicorp/terraform](https://github.com/hashicorp/terraform) | 1 | 38.76 | issue load |
+| [matplotlib/matplotlib](https://github.com/matplotlib/matplotlib) | 1 | 63.97 | issue load |
+| [open-telemetry/opentelemetry-collector](https://github.com/open-telemetry/opentelemetry-collector) | 1 | 90.23 | issue load |
+| [apache/arrow](https://github.com/apache/arrow) | 1 | 147.47 | issue load |
 
 
 _Generated automatically. Methodology in [`docs/METHODOLOGY.md`](docs/METHODOLOGY.md)._
