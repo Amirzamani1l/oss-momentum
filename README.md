@@ -138,7 +138,7 @@ not fail a run whose data has already merged.
 
 ## Ecosystem Radar
 
-_Last run: **2026-10-08 07:20 UTC** · 42 projects · 1,848 observations · 44 days of history (2026-08-23 → 2026-10-08)_
+_Last run: **2026-10-08 16:56 UTC** · 42 projects · 1,848 observations · 44 days of history (2026-08-23 → 2026-10-08)_
 
 ![Category momentum](charts/categories.svg)
 
@@ -146,37 +146,37 @@ _Last run: **2026-10-08 07:20 UTC** · 42 projects · 1,848 observations · 44 d
 
 | Project | Category | Stars | 30d | Growth | Momentum |
 | --- | --- | ---: | ---: | ---: | ---: |
-| [duckdb/duckdb](https://github.com/duckdb/duckdb) | Data engineering | 41,975 | +901 | 2.19% | 3.15 |
-| [pallets/flask](https://github.com/pallets/flask) | Web & backend | 74,934 | +1,353 | 1.84% | 2.36 |
-| [open-telemetry/opentelemetry-collector](https://github.com/open-telemetry/opentelemetry-collector) | Platform & DevOps | 7,642 | +132 | 1.76% | 2.18 |
-| [mlflow/mlflow](https://github.com/mlflow/mlflow) | Machine learning | 28,308 | +440 | 1.58% | 1.78 |
-| [dbt-labs/dbt-core](https://github.com/dbt-labs/dbt-core) | Data engineering | 13,975 | +183 | 1.33% | 1.21 |
-| [huggingface/transformers](https://github.com/huggingface/transformers) | Machine learning | 167,047 | +2,045 | 1.24% | 1.01 |
-| [postgres/postgres](https://github.com/postgres/postgres) | Databases | 22,313 | +262 | 1.19% | 0.90 |
-| [kubernetes/kubernetes](https://github.com/kubernetes/kubernetes) | Platform & DevOps | 128,380 | +1,469 | 1.16% | 0.83 |
+| [duckdb/duckdb](https://github.com/duckdb/duckdb) | Data engineering | 41,986 | +912 | 2.22% | 3.21 |
+| [pallets/flask](https://github.com/pallets/flask) | Web & backend | 74,933 | +1,352 | 1.84% | 2.35 |
+| [open-telemetry/opentelemetry-collector](https://github.com/open-telemetry/opentelemetry-collector) | Platform & DevOps | 7,644 | +134 | 1.78% | 2.22 |
+| [mlflow/mlflow](https://github.com/mlflow/mlflow) | Machine learning | 28,314 | +446 | 1.60% | 1.81 |
+| [dbt-labs/dbt-core](https://github.com/dbt-labs/dbt-core) | Data engineering | 13,977 | +185 | 1.34% | 1.22 |
+| [postgres/postgres](https://github.com/postgres/postgres) | Databases | 22,313 | +262 | 1.19% | 0.88 |
+| [huggingface/transformers](https://github.com/huggingface/transformers) | Machine learning | 166,951 | +1,949 | 1.18% | 0.86 |
+| [ClickHouse/ClickHouse](https://github.com/ClickHouse/ClickHouse) | Databases | 50,300 | +559 | 1.12% | 0.72 |
 
 
 ### Losing momentum (30d)
 
 | Project | Category | Stars | 30d | Growth | Momentum |
 | --- | --- | ---: | ---: | ---: | ---: |
-| [altair-viz/altair](https://github.com/altair-viz/altair) | Visualisation & apps | 10,493 | +24 | 0.23% | -1.27 |
-| [ibis-project/ibis](https://github.com/ibis-project/ibis) | Data engineering | 6,674 | +16 | 0.24% | -1.25 |
-| [plotly/plotly.py](https://github.com/plotly/plotly.py) | Visualisation & apps | 18,827 | +59 | 0.31% | -1.09 |
-| [dmlc/xgboost](https://github.com/dmlc/xgboost) | Machine learning | 28,838 | +96 | 0.33% | -1.04 |
-| [hashicorp/terraform](https://github.com/hashicorp/terraform) | Platform & DevOps | 49,839 | +204 | 0.41% | -0.86 |
+| [altair-viz/altair](https://github.com/altair-viz/altair) | Visualisation & apps | 10,493 | +24 | 0.23% | -1.30 |
+| [ibis-project/ibis](https://github.com/ibis-project/ibis) | Data engineering | 6,676 | +18 | 0.27% | -1.21 |
+| [plotly/plotly.py](https://github.com/plotly/plotly.py) | Visualisation & apps | 18,827 | +59 | 0.31% | -1.12 |
+| [dmlc/xgboost](https://github.com/dmlc/xgboost) | Machine learning | 28,838 | +96 | 0.33% | -1.07 |
+| [scikit-learn/scikit-learn](https://github.com/scikit-learn/scikit-learn) | Machine learning | 67,496 | +278 | 0.41% | -0.89 |
 
 
 ### Categories
 
 | Category | Projects | Stars | 30d | Median growth | Stale |
 | --- | ---: | ---: | ---: | ---: | ---: |
-| Machine learning | 8 | 473,276 | +4,317 | 0.71% | 0 |
-| Web & backend | 5 | 313,648 | +3,267 | 0.76% | 0 |
-| Platform & DevOps | 5 | 329,417 | +2,670 | 0.61% | 0 |
-| Data engineering | 12 | 279,905 | +2,535 | 0.74% | 0 |
-| Databases | 6 | 217,732 | +1,720 | 0.83% | 0 |
-| Visualisation & apps | 6 | 217,324 | +989 | 0.44% | 0 |
+| Machine learning | 8 | 473,233 | +4,274 | 0.73% | 0 |
+| Web & backend | 5 | 313,673 | +3,292 | 0.77% | 0 |
+| Data engineering | 12 | 279,970 | +2,600 | 0.76% | 0 |
+| Platform & DevOps | 5 | 329,343 | +2,596 | 0.63% | 0 |
+| Databases | 6 | 217,748 | +1,736 | 0.84% | 0 |
+| Visualisation & apps | 6 | 217,344 | +1,009 | 0.44% | 0 |
 
 
 ### Watchlist
@@ -184,13 +184,13 @@ _Last run: **2026-10-08 07:20 UTC** · 42 projects · 1,848 observations · 44 d
 | Project | Days since push | Open issues / 1k stars | Flag |
 | --- | ---: | ---: | --- |
 | [microsoft/LightGBM](https://github.com/microsoft/LightGBM) | 2 | 28.87 | issue load |
-| [kubernetes/kubernetes](https://github.com/kubernetes/kubernetes) | 0 | 25.13 | issue load |
-| [duckdb/duckdb](https://github.com/duckdb/duckdb) | 0 | 25.94 | issue load |
-| [grafana/grafana](https://github.com/grafana/grafana) | 0 | 43.34 | issue load |
-| [dbt-labs/dbt-core](https://github.com/dbt-labs/dbt-core) | 0 | 124.01 | issue load |
-| [dagster-io/dagster](https://github.com/dagster-io/dagster) | 0 | 158.48 | issue load |
-| [apache/iceberg](https://github.com/apache/iceberg) | 0 | 99.27 | issue load |
-| [apache/arrow](https://github.com/apache/arrow) | 0 | 143.09 | issue load |
+| [scikit-learn/scikit-learn](https://github.com/scikit-learn/scikit-learn) | 1 | 31.97 | issue load |
+| [kubernetes/kubernetes](https://github.com/kubernetes/kubernetes) | 0 | 25.11 | issue load |
+| [grafana/grafana](https://github.com/grafana/grafana) | 0 | 42.96 | issue load |
+| [dbt-labs/dbt-core](https://github.com/dbt-labs/dbt-core) | 0 | 124.13 | issue load |
+| [dagster-io/dagster](https://github.com/dagster-io/dagster) | 0 | 158.54 | issue load |
+| [apache/iceberg](https://github.com/apache/iceberg) | 0 | 99.37 | issue load |
+| [apache/arrow](https://github.com/apache/arrow) | 0 | 143.11 | issue load |
 
 
 _Generated automatically. Methodology in [`docs/METHODOLOGY.md`](docs/METHODOLOGY.md)._
