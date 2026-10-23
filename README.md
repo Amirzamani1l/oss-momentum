@@ -138,7 +138,7 @@ not fail a run whose data has already merged.
 
 ## Ecosystem Radar
 
-_Last run: **2026-10-22 14:40 UTC** · 42 projects · 2,394 observations · 57 days of history (2026-08-23 → 2026-10-22)_
+_Last run: **2026-10-23 20:33 UTC** · 42 projects · 2,436 observations · 58 days of history (2026-08-23 → 2026-10-23)_
 
 ![Category momentum](charts/categories.svg)
 
@@ -146,51 +146,51 @@ _Last run: **2026-10-22 14:40 UTC** · 42 projects · 2,394 observations · 57 d
 
 | Project | Category | Stars | 30d | Growth | Momentum |
 | --- | --- | ---: | ---: | ---: | ---: |
-| [duckdb/duckdb](https://github.com/duckdb/duckdb) | Data engineering | 42,386 | +742 | 1.78% | 2.68 |
-| [pytorch/pytorch](https://github.com/pytorch/pytorch) | Machine learning | 104,977 | +1,797 | 1.74% | 2.58 |
-| [postgres/postgres](https://github.com/postgres/postgres) | Databases | 22,504 | +325 | 1.47% | 1.86 |
-| [mlflow/mlflow](https://github.com/mlflow/mlflow) | Machine learning | 28,493 | +389 | 1.38% | 1.62 |
-| [open-telemetry/opentelemetry-collector](https://github.com/open-telemetry/opentelemetry-collector) | Platform & DevOps | 7,686 | +102 | 1.34% | 1.51 |
-| [encode/httpx](https://github.com/encode/httpx) | Web & backend | 15,708 | +206 | 1.33% | 1.48 |
-| [dbt-labs/dbt-core](https://github.com/dbt-labs/dbt-core) | Data engineering | 14,062 | +157 | 1.13% | 0.95 |
-| [ClickHouse/ClickHouse](https://github.com/ClickHouse/ClickHouse) | Databases | 50,536 | +512 | 1.02% | 0.66 |
+| [duckdb/duckdb](https://github.com/duckdb/duckdb) | Data engineering | 42,459 | +795 | 1.91% | 2.74 |
+| [pytorch/pytorch](https://github.com/pytorch/pytorch) | Machine learning | 105,012 | +1,808 | 1.75% | 2.35 |
+| [postgres/postgres](https://github.com/postgres/postgres) | Databases | 22,524 | +342 | 1.54% | 1.83 |
+| [encode/httpx](https://github.com/encode/httpx) | Web & backend | 15,733 | +229 | 1.48% | 1.68 |
+| [fastapi/fastapi](https://github.com/fastapi/fastapi) | Web & backend | 104,062 | +1,506 | 1.47% | 1.65 |
+| [mlflow/mlflow](https://github.com/mlflow/mlflow) | Machine learning | 28,511 | +392 | 1.39% | 1.45 |
+| [open-telemetry/opentelemetry-collector](https://github.com/open-telemetry/opentelemetry-collector) | Platform & DevOps | 7,691 | +99 | 1.30% | 1.23 |
+| [dbt-labs/dbt-core](https://github.com/dbt-labs/dbt-core) | Data engineering | 14,068 | +154 | 1.11% | 0.76 |
 
 
 ### Losing momentum (30d)
 
 | Project | Category | Stars | 30d | Growth | Momentum |
 | --- | --- | ---: | ---: | ---: | ---: |
-| [altair-viz/altair](https://github.com/altair-viz/altair) | Visualisation & apps | 10,501 | +21 | 0.20% | -1.53 |
-| [ibis-project/ibis](https://github.com/ibis-project/ibis) | Data engineering | 6,678 | +16 | 0.24% | -1.43 |
-| [plotly/plotly.py](https://github.com/plotly/plotly.py) | Visualisation & apps | 18,854 | +56 | 0.30% | -1.27 |
-| [pallets/flask](https://github.com/pallets/flask) | Web & backend | 75,003 | +236 | 0.32% | -1.21 |
-| [apache/arrow](https://github.com/apache/arrow) | Data engineering | 17,214 | +64 | 0.37% | -1.08 |
+| [altair-viz/altair](https://github.com/altair-viz/altair) | Visualisation & apps | 10,502 | +20 | 0.19% | -1.52 |
+| [ibis-project/ibis](https://github.com/ibis-project/ibis) | Data engineering | 6,679 | +17 | 0.26% | -1.35 |
+| [plotly/plotly.py](https://github.com/plotly/plotly.py) | Visualisation & apps | 18,855 | +55 | 0.29% | -1.27 |
+| [pallets/flask](https://github.com/pallets/flask) | Web & backend | 75,024 | +259 | 0.35% | -1.12 |
+| [delta-io/delta](https://github.com/delta-io/delta) | Data engineering | 9,053 | +33 | 0.37% | -1.07 |
 
 
 ### Categories
 
 | Category | Projects | Stars | 30d | Median growth | Stale |
 | --- | ---: | ---: | ---: | ---: | ---: |
-| Machine learning | 8 | 476,176 | +4,701 | 0.78% | 0 |
-| Data engineering | 12 | 281,261 | +2,495 | 0.71% | 0 |
-| Platform & DevOps | 5 | 330,416 | +2,183 | 0.74% | 0 |
-| Web & backend | 5 | 314,894 | +2,079 | 0.95% | 0 |
-| Databases | 6 | 218,765 | +1,934 | 0.78% | 0 |
-| Visualisation & apps | 6 | 217,903 | +1,070 | 0.52% | 0 |
+| Machine learning | 8 | 476,327 | +4,745 | 0.80% | 0 |
+| Web & backend | 5 | 315,548 | +2,698 | 1.03% | 0 |
+| Data engineering | 12 | 281,409 | +2,571 | 0.72% | 0 |
+| Platform & DevOps | 5 | 330,538 | +2,243 | 0.77% | 0 |
+| Databases | 6 | 218,869 | +1,996 | 0.80% | 0 |
+| Visualisation & apps | 6 | 217,951 | +1,083 | 0.52% | 0 |
 
 
 ### Watchlist
 
 | Project | Days since push | Open issues / 1k stars | Flag |
 | --- | ---: | ---: | --- |
-| [kubernetes/kubernetes](https://github.com/kubernetes/kubernetes) | 0 | 25.01 | issue load |
-| [grafana/grafana](https://github.com/grafana/grafana) | 0 | 42.66 | issue load |
-| [delta-io/delta](https://github.com/delta-io/delta) | 0 | 108.48 | issue load |
-| [dbt-labs/dbt-core](https://github.com/dbt-labs/dbt-core) | 0 | 128.72 | issue load |
-| [dagster-io/dagster](https://github.com/dagster-io/dagster) | 0 | 159.63 | issue load |
-| [apache/iceberg](https://github.com/apache/iceberg) | 0 | 100.13 | issue load |
-| [apache/arrow](https://github.com/apache/arrow) | 0 | 138.90 | issue load |
-| [apache/airflow](https://github.com/apache/airflow) | 0 | 40.29 | issue load |
+| [microsoft/LightGBM](https://github.com/microsoft/LightGBM) | 1 | 28.35 | issue load |
+| [grafana/grafana](https://github.com/grafana/grafana) | 0 | 43.06 | issue load |
+| [dbt-labs/dbt-core](https://github.com/dbt-labs/dbt-core) | 0 | 129.80 | issue load |
+| [dagster-io/dagster](https://github.com/dagster-io/dagster) | 0 | 159.92 | issue load |
+| [apache/iceberg](https://github.com/apache/iceberg) | 0 | 100.65 | issue load |
+| [apache/arrow](https://github.com/apache/arrow) | 0 | 138.01 | issue load |
+| [apache/airflow](https://github.com/apache/airflow) | 0 | 40.53 | issue load |
+| [PrefectHQ/prefect](https://github.com/PrefectHQ/prefect) | 0 | 38.23 | issue load |
 
 
 _Generated automatically. Methodology in [`docs/METHODOLOGY.md`](docs/METHODOLOGY.md)._
