@@ -138,7 +138,7 @@ not fail a run whose data has already merged.
 
 ## Ecosystem Radar
 
-_Last run: **2026-11-24 10:53 UTC** · 42 projects · 3,780 observations · 90 days of history (2026-08-23 → 2026-11-24)_
+_Last run: **2026-11-24 20:20 UTC** · 42 projects · 3,780 observations · 90 days of history (2026-08-23 → 2026-11-24)_
 
 ![Category momentum](charts/categories.svg)
 
@@ -146,51 +146,51 @@ _Last run: **2026-11-24 10:53 UTC** · 42 projects · 3,780 observations · 90 d
 
 | Project | Category | Stars | 30d | Growth | Momentum |
 | --- | --- | ---: | ---: | ---: | ---: |
-| [duckdb/duckdb](https://github.com/duckdb/duckdb) | Data engineering | 43,284 | +760 | 1.79% | 2.55 |
-| [postgres/postgres](https://github.com/postgres/postgres) | Databases | 22,922 | +368 | 1.63% | 2.16 |
-| [pydantic/pydantic](https://github.com/pydantic/pydantic) | Web & backend | 29,642 | +467 | 1.60% | 2.09 |
-| [prometheus/prometheus](https://github.com/prometheus/prometheus) | Platform & DevOps | 67,789 | +1,035 | 1.55% | 1.97 |
-| [mlflow/mlflow](https://github.com/mlflow/mlflow) | Machine learning | 28,950 | +421 | 1.48% | 1.80 |
-| [open-telemetry/opentelemetry-collector](https://github.com/open-telemetry/opentelemetry-collector) | Platform & DevOps | 7,802 | +109 | 1.42% | 1.65 |
-| [valkey-io/valkey](https://github.com/valkey-io/valkey) | Databases | 27,847 | +333 | 1.21% | 1.14 |
-| [ClickHouse/ClickHouse](https://github.com/ClickHouse/ClickHouse) | Databases | 51,094 | +500 | 0.99% | 0.61 |
+| [duckdb/duckdb](https://github.com/duckdb/duckdb) | Data engineering | 43,296 | +772 | 1.82% | 2.55 |
+| [postgres/postgres](https://github.com/postgres/postgres) | Databases | 22,931 | +377 | 1.67% | 2.19 |
+| [prometheus/prometheus](https://github.com/prometheus/prometheus) | Platform & DevOps | 67,829 | +1,075 | 1.61% | 2.05 |
+| [pydantic/pydantic](https://github.com/pydantic/pydantic) | Web & backend | 29,641 | +466 | 1.60% | 2.03 |
+| [mlflow/mlflow](https://github.com/mlflow/mlflow) | Machine learning | 28,955 | +426 | 1.49% | 1.76 |
+| [open-telemetry/opentelemetry-collector](https://github.com/open-telemetry/opentelemetry-collector) | Platform & DevOps | 7,803 | +110 | 1.43% | 1.62 |
+| [valkey-io/valkey](https://github.com/valkey-io/valkey) | Databases | 27,855 | +341 | 1.24% | 1.17 |
+| [ClickHouse/ClickHouse](https://github.com/ClickHouse/ClickHouse) | Databases | 51,106 | +512 | 1.01% | 0.62 |
 
 
 ### Losing momentum (30d)
 
 | Project | Category | Stars | 30d | Growth | Momentum |
 | --- | --- | ---: | ---: | ---: | ---: |
-| [altair-viz/altair](https://github.com/altair-viz/altair) | Visualisation & apps | 10,518 | +16 | 0.15% | -1.43 |
-| [pallets/flask](https://github.com/pallets/flask) | Web & backend | 75,195 | +112 | 0.15% | -1.43 |
-| [django/django](https://github.com/django/django) | Web & backend | 91,832 | +192 | 0.21% | -1.28 |
-| [encode/httpx](https://github.com/encode/httpx) | Web & backend | 15,846 | +46 | 0.29% | -1.09 |
-| [hashicorp/terraform](https://github.com/hashicorp/terraform) | Platform & DevOps | 50,320 | +149 | 0.30% | -1.06 |
+| [altair-viz/altair](https://github.com/altair-viz/altair) | Visualisation & apps | 10,519 | +17 | 0.16% | -1.41 |
+| [pallets/flask](https://github.com/pallets/flask) | Web & backend | 75,204 | +121 | 0.16% | -1.41 |
+| [django/django](https://github.com/django/django) | Web & backend | 91,838 | +198 | 0.22% | -1.27 |
+| [hashicorp/terraform](https://github.com/hashicorp/terraform) | Platform & DevOps | 50,320 | +149 | 0.30% | -1.08 |
+| [encode/httpx](https://github.com/encode/httpx) | Web & backend | 15,851 | +51 | 0.32% | -1.03 |
 
 
 ### Categories
 
 | Category | Projects | Stars | 30d | Median growth | Stale |
 | --- | ---: | ---: | ---: | ---: | ---: |
-| Machine learning | 8 | 479,718 | +3,167 | 0.60% | 0 |
-| Platform & DevOps | 5 | 333,262 | +2,476 | 0.76% | 0 |
-| Data engineering | 12 | 284,019 | +2,457 | 0.73% | 0 |
-| Databases | 6 | 220,948 | +1,965 | 0.85% | 0 |
-| Web & backend | 5 | 317,473 | +1,607 | 0.29% | 0 |
-| Visualisation & apps | 6 | 219,206 | +1,175 | 0.45% | 0 |
+| Machine learning | 8 | 479,680 | +3,129 | 0.59% | 0 |
+| Platform & DevOps | 5 | 333,343 | +2,557 | 0.81% | 0 |
+| Data engineering | 12 | 284,073 | +2,511 | 0.76% | 0 |
+| Databases | 6 | 221,014 | +2,031 | 0.88% | 0 |
+| Web & backend | 5 | 317,488 | +1,622 | 0.32% | 0 |
+| Visualisation & apps | 6 | 219,230 | +1,199 | 0.46% | 0 |
 
 
 ### Watchlist
 
 | Project | Days since push | Open issues / 1k stars | Flag |
 | --- | ---: | ---: | --- |
-| [unionai-oss/pandera](https://github.com/unionai-oss/pandera) | 5 | 110.45 | issue load |
-| [duckdb/duckdb](https://github.com/duckdb/duckdb) | 0 | 29.78 | issue load |
-| [grafana/grafana](https://github.com/grafana/grafana) | 0 | 42.54 | issue load |
-| [dbt-labs/dbt-core](https://github.com/dbt-labs/dbt-core) | 0 | 139.31 | issue load |
-| [dagster-io/dagster](https://github.com/dagster-io/dagster) | 0 | 160.20 | issue load |
-| [apache/iceberg](https://github.com/apache/iceberg) | 0 | 99.45 | issue load |
-| [apache/arrow](https://github.com/apache/arrow) | 0 | 125.04 | issue load |
-| [apache/airflow](https://github.com/apache/airflow) | 0 | 41.89 | issue load |
+| [matplotlib/matplotlib](https://github.com/matplotlib/matplotlib) | 1 | 62.39 | issue load |
+| [microsoft/LightGBM](https://github.com/microsoft/LightGBM) | 1 | 29.15 | issue load |
+| [grafana/grafana](https://github.com/grafana/grafana) | 0 | 42.38 | issue load |
+| [dbt-labs/dbt-core](https://github.com/dbt-labs/dbt-core) | 0 | 139.49 | issue load |
+| [dagster-io/dagster](https://github.com/dagster-io/dagster) | 0 | 160.38 | issue load |
+| [apache/iceberg](https://github.com/apache/iceberg) | 0 | 100.18 | issue load |
+| [apache/arrow](https://github.com/apache/arrow) | 0 | 124.75 | issue load |
+| [apache/airflow](https://github.com/apache/airflow) | 0 | 41.47 | issue load |
 
 
 _Generated automatically. Methodology in [`docs/METHODOLOGY.md`](docs/METHODOLOGY.md)._
